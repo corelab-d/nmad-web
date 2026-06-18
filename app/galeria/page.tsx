@@ -11,7 +11,7 @@ export default function GaleriaPage() {
   const artworks = getAllArtworks()
   // Derive unique artists from the actual artworks so slugs always match
   const artists = Array.from(
-    new Map(artworks.map((a) => [a.artistSlug, { slug: a.artistSlug, name: a.artist }])).values()
+    new Map(artworks.map((a) => [a.artistSlug, { slug: a.artistSlug, name: a.artist, bio: '' }])).values()
   ).sort((a, b) => a.name.localeCompare(b.name))
 
   return (
