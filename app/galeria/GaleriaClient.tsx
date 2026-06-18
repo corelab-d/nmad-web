@@ -74,7 +74,7 @@ export default function GaleriaClient({ artworks, artists, collections }: Props)
       {filtered.length === 0 ? (
         <p className="text-[#888] text-center py-20">No hay obras con estos filtros.</p>
       ) : (
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-5 gap-y-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-x-5 gap-y-10">
           {filtered.map((artwork) => (
             <ArtworkCard key={artwork.id} artwork={artwork} />
           ))}
