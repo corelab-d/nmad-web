@@ -46,11 +46,11 @@ export default function GaleriaClient({ artworks, artists, collections }: Props)
       <div className="space-y-4 mb-10 pb-8 border-b border-[#e8e8e8]">
         {/* Collections — always visible */}
         <div className="flex flex-wrap gap-2">
-          <button onClick={() => setFilterCollection('all')} className={pill(filterCollection === 'all')}>
+          <button onClick={() => { setFilterCollection('all'); setFilterArtist('all') }} className={pill(filterCollection === 'all' && filterArtist === 'all')}>
             Todas
           </button>
           {collections.map((c) => (
-            <button key={c.slug} onClick={() => setFilterCollection(c.slug)} className={pill(filterCollection === c.slug)}>
+            <button key={c.slug} onClick={() => { setFilterCollection(c.slug); setFilterArtist('all') }} className={pill(filterCollection === c.slug)}>
               {c.label}
             </button>
           ))}
@@ -68,17 +68,17 @@ export default function GaleriaClient({ artworks, artists, collections }: Props)
           >
             {filterArtist !== 'all'
               ? artists.find((a) => a.slug === filterArtist)?.name ?? 'Artista'
-              : 'Todos los artistas'}
+              : 'Artistas'}
             <span className="opacity-50">{artistsOpen ? '−' : '+'}</span>
           </button>
 
           {artistsOpen && (
             <div className="flex flex-wrap gap-2 mt-3">
-              <button onClick={() => { setFilterArtist('all'); setArtistsOpen(false) }} className={pill(filterArtist === 'all')}>
+              <button onClick={() => { setFilterArtist('all'); setFilterCollection('all'); setArtistsOpen(false) }} className={pill(filterArtist === 'all')}>
                 Todos
               </button>
               {artists.map((a) => (
-                <button key={a.slug} onClick={() => { setFilterArtist(a.slug); setArtistsOpen(false) }} className={pill(filterArtist === a.slug)}>
+                <button key={a.slug} onClick={() => { setFilterArtist(a.slug); setFilterCollection('all'); setArtistsOpen(false) }} className={pill(filterArtist === a.slug)}>
                   {a.name}
                 </button>
               ))}
