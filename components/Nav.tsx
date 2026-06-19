@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { COLLECTIONS } from '@/lib/catalog'
 import ShowroomModal from './ShowroomModal'
 
@@ -11,10 +11,22 @@ export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [galeriaOpen, setGaleriaOpen] = useState(false)
   const [showroomOpen, setShowroomOpen] = useState(false)
+  const [hidden, setHidden] = useState(false)
+
+  useEffect(() => {
+    let lastY = window.scrollY
+    const onScroll = () => {
+      const y = window.scrollY
+      setHidden(y > lastY && y > 80)
+      lastY = y
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-50 bg-[#ffffff]/95 backdrop-blur-sm border-b border-[#e8e8e8]">
+      <header className={`fixed top-0 left-0 right-0 z-50 bg-[#ffffff]/95 backdrop-blur-sm border-b border-[#e8e8e8] transition-transform duration-300 ${hidden ? '-translate-y-full' : 'translate-y-0'}`}>
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
 
           {/* Logo */}
