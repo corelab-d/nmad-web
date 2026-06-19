@@ -5763,7 +5763,12 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/4f85dde0-5e47-46df-a66a-6fbf56c632d2/PortadasALEX+SITIO.017.jpeg",
       "imageSquare": null,
-      "imageDetails": [],
+      "imageDetails": [
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/buscador-alex-lazard/sala.png",
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/buscador-alex-lazard/detalle1.png",
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/buscador-alex-lazard/detalle2.png",
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/buscador-alex-lazard/detalle3.png"
+      ],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/4f85dde0-5e47-46df-a66a-6fbf56c632d2/PortadasALEX+SITIO.017.jpeg"
       ]
