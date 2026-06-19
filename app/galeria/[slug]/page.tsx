@@ -26,16 +26,16 @@ export default async function ObraPage({ params }: { params: Promise<{ slug: str
 
   const artist = getArtistBySlug(artwork.artistSlug)
 
-  const allImages = [
+  const isSquareThumb = (img: string) => {
+    const fname = img.split('/').pop()?.toLowerCase() ?? ''
+    return fname.includes('_sq') || fname.includes('3+sq') || fname.includes('3 sq') || fname.endsWith('sq.png') || fname.endsWith('sq.jpg')
+  }
+
+  const images = [
     artwork.imageMain,
     ...artwork.imageDetails,
     ...(artwork.imageSquare ? [artwork.imageSquare] : []),
-  ].filter((img): img is string => !!img && !img.includes('sq') && !img.toLowerCase().includes('_sq') && !img.toLowerCase().includes('3+sq') && !img.toLowerCase().includes('3 sq'))
-
-  // Fallback: use all images if filter removed everything
-  const images = allImages.length > 0
-    ? allImages
-    : [artwork.imageMain, ...artwork.imageDetails].filter((img): img is string => !!img)
+  ].filter((img): img is string => !!img && !isSquareThumb(img))
 
   // Recommended works: same artist first, then fill from all artworks
   const sameArtist = getArtworksByArtist(artwork.artistSlug).filter((a) => a.slug !== artwork.slug)
