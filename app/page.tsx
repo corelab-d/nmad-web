@@ -2,15 +2,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { getAllArtworks, getAllArtists, COLLECTIONS } from '@/lib/catalog'
 import ArtworkCard from '@/components/ArtworkCard'
-import ShowroomModal from '@/components/ShowroomModal'
-
 export default function Home() {
   const artworks = getAllArtworks()
   const artists = getAllArtists()
 
   return (
     <div>
-      <ShowroomModal />
       {/* Hero */}
       <section className="border-b border-[#e8e8e8] py-20 px-6 text-center">
         <div className="max-w-6xl mx-auto">
