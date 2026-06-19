@@ -5788,7 +5788,12 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/edcee69b-f6a1-459e-ac66-7128cd08936c/PortadasALEX+SITIO.018.jpeg",
       "imageSquare": null,
-      "imageDetails": [],
+      "imageDetails": [
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/la-sombra-de-la-sombra-alex-lazard/sala.png",
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/la-sombra-de-la-sombra-alex-lazard/detalle1.png",
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/la-sombra-de-la-sombra-alex-lazard/detalle2.png",
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/la-sombra-de-la-sombra-alex-lazard/detalle3.png"
+      ],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/edcee69b-f6a1-459e-ac66-7128cd08936c/PortadasALEX+SITIO.018.jpeg"
       ]
