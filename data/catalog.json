@@ -5738,7 +5738,11 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/01fe42f2-70ed-43b9-9e71-6a057b398eb4/PortadasALEX+SITIO.016.jpeg",
       "imageSquare": null,
-      "imageDetails": [],
+      "imageDetails": [
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/encuentro-alex-lazard/sala.png",
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/encuentro-alex-lazard/detalle1.png",
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/encuentro-alex-lazard/detalle2.png"
+      ],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/01fe42f2-70ed-43b9-9e71-6a057b398eb4/PortadasALEX+SITIO.016.jpeg"
       ]
