@@ -33,7 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-[#888] tracking-wider">
             <span>© {new Date().getFullYear()} NMAD · New Modern Art District</span>
             <div className="flex flex-col items-center md:items-end gap-4">
-              <Image src="/logo-footer.png" alt="NMAD" width={80} height={32} unoptimized className="h-8 w-auto object-contain opacity-70" />
+              <Image src="/logo-footer.png" alt="NMAD" width={400} height={160} unoptimized className="h-40 w-auto object-contain opacity-70" />
               <div className="flex gap-8">
                 <a href="https://www.instagram.com/nmad.art" target="_blank" rel="noopener noreferrer" className="hover:text-[#1a1a1a] transition-colors uppercase">Instagram</a>
                 <a href="/contacto" className="hover:text-[#1a1a1a] transition-colors uppercase">Contacto</a>
