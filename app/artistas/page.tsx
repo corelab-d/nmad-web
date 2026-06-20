@@ -1,6 +1,5 @@
-import Link from 'next/link'
-import Image from 'next/image'
 import { getAllArtists, getArtworksByArtist } from '@/lib/catalog'
+import ArtistCard from './ArtistCard'
 
 export const metadata = { title: 'Artistas · NMAD' }
 
@@ -17,28 +16,10 @@ export default function ArtistasPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#e8e8e8]">
         {artists.map((artist) => {
           const artworks = getArtworksByArtist(artist.slug)
-          const cover = artworks.find((a) => a.imageSquare || a.imageMain)
-          const img = cover?.imageSquare || cover?.imageMain
-
+          const cover = artworks[0]
+          const img = cover?.imageMain || cover?.imageSquare
           return (
-            <Link key={artist.slug} href={`/artistas/${artist.slug}`}
-              className="group bg-[#ffffff] p-8 flex gap-6 hover:bg-[#f5f5f5] transition-colors">
-              <div className="relative w-20 h-20 shrink-0 bg-[#f0f0f0] overflow-hidden">
-                {img && (
-                  <Image src={img} alt={artist.name} fill unoptimized
-                    className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-                    sizes="80px"
-                  />
-                )}
-              </div>
-              <div className="flex-1 min-w-0">
-                <h2 className="text-base font-light mb-1 group-hover:underline underline-offset-4">{artist.name}</h2>
-                <p className="text-[10px] tracking-widest uppercase text-[#aaa] mb-2">{artworks.length} obras</p>
-                {artist.bio && (
-                  <p className="text-xs text-[#888] leading-relaxed line-clamp-2">{artist.bio}</p>
-                )}
-              </div>
-            </Link>
+            <ArtistCard key={artist.slug} artist={artist} img={img} count={artworks.length} />
           )
         })}
       </div>
