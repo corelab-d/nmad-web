@@ -17,7 +17,7 @@ export default function ArtistasPage() {
         {artists.map((artist) => {
           const artworks = getArtworksByArtist(artist.slug)
           const cover = artworks[0]
-          const img = cover?.imageMain || cover?.imageSquare
+          const img = cover?.imageMain ?? cover?.imageSquare ?? undefined
           return (
             <ArtistCard key={artist.slug} artist={artist} img={img} count={artworks.length} />
           )
