@@ -5,7 +5,12 @@ import ArtworkCard from '@/components/ArtworkCard'
 export const dynamic = 'force-dynamic'
 
 export default function Home() {
-  const artworks = getAllArtworks().sort(() => Math.random() - 0.5)
+  const shuffle = <T,>(arr: T[]) => arr.sort(() => Math.random() - 0.5)
+  const all = getAllArtworks()
+  const groupA = all.filter(a => a.imageDetails.length >= 2)
+  const groupB = all.filter(a => a.imageDetails.length === 1)
+  const groupC = all.filter(a => a.imageDetails.length === 0)
+  const artworks = [...shuffle(groupA), ...shuffle(groupB), ...shuffle(groupC)]
   const artists = getAllArtists()
 
   return (
