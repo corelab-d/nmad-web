@@ -92,10 +92,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="border-t border-[#e8e8e8] px-6 py-5">
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-3 text-[10px] text-[#bbb] tracking-wider">
               <span>© {new Date().getFullYear()} NMAD · New Modern Art District</span>
-              <div className="flex gap-6">
-                <a href="/contacto" className="hover:text-[#888] transition-colors">Términos y condiciones</a>
-                <a href="/contacto" className="hover:text-[#888] transition-colors">Aviso de privacidad</a>
-              </div>
+              <a href="/legal" className="hover:text-[#888] transition-colors">Términos y condiciones · Aviso de privacidad</a>
             </div>
           </div>
         </footer>
