@@ -4722,8 +4722,8 @@
       "id": "68473aefb91f060aa5202004",
       "title": "Hibiscus",
       "slug": "hibicus-paula-bernard",
-      "artist": "Paula C. Bernard",
-      "artistSlug": "paula-c-bernard",
+      "artist": "Paula Bernard",
+      "artistSlug": "paula-bernard",
       "price": 80000,
       "available": false,
       "visible": true,
@@ -4738,7 +4738,12 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/f266611b-52c0-4863-84d8-9fbbbb37413d/Vol4_Portadas.015.jpeg",
       "imageSquare": null,
-      "imageDetails": [],
+      "imageDetails": [
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/hibiscus-paula-bernard/sala.png",
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/hibiscus-paula-bernard/detalle1.png",
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/hibiscus-paula-bernard/detalle2.png",
+        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/hibiscus-paula-bernard/detalle3.png"
+      ],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/f266611b-52c0-4863-84d8-9fbbbb37413d/Vol4_Portadas.015.jpeg"
       ]
