@@ -38,22 +38,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {/* Main footer columns */}
           <div className="max-w-6xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between gap-10">
 
-            {/* Col 1 — Navega */}
+            {/* Col 1 — Navega (2 sub-columns) */}
             <div>
               <p className="text-[10px] tracking-[0.2em] uppercase text-[#1a1a1a] mb-5">Navega</p>
-              <ul className="space-y-3 text-xs text-[#888] tracking-wider">
-                <li><a href="/galeria" className="hover:text-[#1a1a1a] transition-colors">Galería</a></li>
-                <li><a href="/artistas" className="hover:text-[#1a1a1a] transition-colors">Artistas</a></li>
-                <li className="pt-2 text-[10px] uppercase text-[#bbb] tracking-widest">Colecciones</li>
-                <li><a href="/galeria?coleccion=vol-5" className="hover:text-[#1a1a1a] transition-colors">Vol. 5</a></li>
-                <li><a href="/galeria?coleccion=vol-4" className="hover:text-[#1a1a1a] transition-colors">Vol. 4</a></li>
-                <li><a href="/galeria?coleccion=vol-3" className="hover:text-[#1a1a1a] transition-colors">Vol. 3</a></li>
-                <li><a href="/galeria?coleccion=vol-2" className="hover:text-[#1a1a1a] transition-colors">Vol. 2</a></li>
-                <li><a href="/galeria?coleccion=vol-1" className="hover:text-[#1a1a1a] transition-colors">Vol. 1</a></li>
-                <li><a href="/galeria?coleccion=materia-sensible" className="hover:text-[#1a1a1a] transition-colors">Materia Sensible</a></li>
-                <li><a href="/galeria?coleccion=dale-wow" className="hover:text-[#1a1a1a] transition-colors">Dale WOW</a></li>
-                <li><a href="/galeria?coleccion=dolores-64" className="hover:text-[#1a1a1a] transition-colors">Dolores 64</a></li>
-              </ul>
+              <div className="flex gap-10 text-xs text-[#888] tracking-wider">
+                <ul className="space-y-3">
+                  <li><a href="/galeria" className="hover:text-[#1a1a1a] transition-colors">Galería</a></li>
+                  <li><a href="/artistas" className="hover:text-[#1a1a1a] transition-colors">Artistas</a></li>
+                  <li className="pt-2 text-[10px] uppercase text-[#bbb] tracking-widest">Colecciones</li>
+                  <li><a href="/galeria?coleccion=vol-5" className="hover:text-[#1a1a1a] transition-colors">Vol. 5</a></li>
+                  <li><a href="/galeria?coleccion=vol-4" className="hover:text-[#1a1a1a] transition-colors">Vol. 4</a></li>
+                  <li><a href="/galeria?coleccion=vol-3" className="hover:text-[#1a1a1a] transition-colors">Vol. 3</a></li>
+                  <li><a href="/galeria?coleccion=vol-2" className="hover:text-[#1a1a1a] transition-colors">Vol. 2</a></li>
+                </ul>
+                <ul className="space-y-3 pt-[4.25rem]">
+                  <li><a href="/galeria?coleccion=vol-1" className="hover:text-[#1a1a1a] transition-colors">Vol. 1</a></li>
+                  <li><a href="/galeria?coleccion=materia-sensible" className="hover:text-[#1a1a1a] transition-colors">Materia Sensible</a></li>
+                  <li><a href="/galeria?coleccion=dale-wow" className="hover:text-[#1a1a1a] transition-colors">Dale WOW</a></li>
+                  <li><a href="/galeria?coleccion=dolores-64" className="hover:text-[#1a1a1a] transition-colors">Dolores 64</a></li>
+                </ul>
+              </div>
             </div>
 
             {/* Col 2 — Nosotros */}
