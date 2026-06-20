@@ -5130,39 +5130,6 @@
       ]
     },
     {
-      "id": "6902aae9d1c8e60084f13101",
-      "title": "Minotauro",
-      "slug": "minotauro-toro-amillategui",
-      "artist": "Toro Amillategui",
-      "artistSlug": "toro-amillategui",
-      "price": 12000,
-      "available": false,
-      "visible": true,
-      "technique": "Óleo sobre tela",
-      "dimensions": "60 × 50 cm",
-      "year": "",
-      "edition": "Original",
-      "framing": "Sin Marco",
-      "collections": [
-        "todas"
-      ],
-      "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/51b1c758-3c8a-4d4a-afb7-7378fd22d373/PortadasToro.008.jpeg",
-      "imageSquare": null,
-      "imageDetails": [
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/9afdf1eb-603e-4820-a960-3f06e5c489f7/8_Full_Minotauro_Toro_Amillategui.JPG",
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/460b1951-2b36-4682-9c4e-e49278fbb40b/8_Detalle_1_Minotauro_Toro_Amillategui.JPG",
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/60b25958-cfe0-4dde-98e1-b13ccb0ebc1b/8_Detalle_2_Minotauro_Toro_Amillategui.JPG",
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/410182d9-5917-456d-a843-c4d0f96b8124/8_Obra_Minotauro_Toro_Amillategui+copy.JPG"
-      ],
-      "allImages": [
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/51b1c758-3c8a-4d4a-afb7-7378fd22d373/PortadasToro.008.jpeg",
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/460b1951-2b36-4682-9c4e-e49278fbb40b/8_Detalle_1_Minotauro_Toro_Amillategui.JPG",
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/60b25958-cfe0-4dde-98e1-b13ccb0ebc1b/8_Detalle_2_Minotauro_Toro_Amillategui.JPG",
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/9afdf1eb-603e-4820-a960-3f06e5c489f7/8_Full_Minotauro_Toro_Amillategui.JPG",
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/410182d9-5917-456d-a843-c4d0f96b8124/8_Obra_Minotauro_Toro_Amillategui+copy.JPG"
-      ]
-    },
-    {
       "id": "6902e2e086f0a22e76813d36",
       "title": "Bodegón con cuchara amarilla",
       "slug": "bodegn-con-cuchara-amarilla-toro-amillategui",
