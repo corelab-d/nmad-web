@@ -2,8 +2,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { getAllArtworks, getAllArtists, COLLECTIONS } from '@/lib/catalog'
 import ArtworkCard from '@/components/ArtworkCard'
+export const dynamic = 'force-dynamic'
+
 export default function Home() {
-  const artworks = getAllArtworks()
+  const artworks = getAllArtworks().sort(() => Math.random() - 0.5)
   const artists = getAllArtists()
 
   return (
