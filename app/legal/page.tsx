@@ -82,7 +82,6 @@ export default function LegalPage() {
         <section>
           <h2 className="text-xs tracking-[0.2em] uppercase text-[#1a1a1a] mb-3">Contacto</h2>
           <p>Para cualquier consulta legal: <a href="mailto:info@nmad.art" className="underline underline-offset-4 hover:text-[#1a1a1a] transition-colors">info@nmad.art</a></p>
-          <p className="mt-2 text-[#888]">Tiro al Pichón 44, Lomas de Bezares 11910, Ciudad de México.</p>
         </section>
 
       </div>

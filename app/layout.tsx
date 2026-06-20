@@ -30,11 +30,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Nav />
         <main className="flex-1 pt-16">{children}</main>
         <footer className="border-t border-[#e8e8e8] mt-20">
-          {/* Tagline */}
-          <div className="border-b border-[#e8e8e8] py-10 px-6 text-center">
-            <p className="text-sm font-light text-[#888] tracking-wide">Arte contemporáneo para espacios privados</p>
-          </div>
-
           {/* Main footer columns */}
           <div className="max-w-6xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between gap-10">
 
