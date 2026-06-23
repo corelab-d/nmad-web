@@ -1,11 +1,14 @@
 'use client'
-import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
 import { Artwork } from '@/lib/catalog'
+import { useLocale } from 'next-intl'
+import { Link } from '@/i18n/navigation'
 
 export default function ArtworkCard({ artwork }: { artwork: Artwork }) {
+  const locale = useLocale()
   const [hovered, setHovered] = useState(false)
+  const displayTitle = locale === 'en' ? (artwork.titleEn ?? artwork.title) : artwork.title
 
   const primaryImg = artwork.imageMain
   const secondaryImg = artwork.imageDetails[0] ?? null
@@ -48,7 +51,7 @@ export default function ArtworkCard({ artwork }: { artwork: Artwork }) {
 
       <div className="pt-3">
         <p className="text-[10px] text-[#888] tracking-[0.15em] uppercase mb-0.5">{artwork.artist}</p>
-        <h3 className="text-sm font-light leading-snug">{artwork.title}</h3>
+        <h3 className="text-sm font-light leading-snug">{displayTitle}</h3>
         {artwork.dimensions && (
           <p className="text-[11px] text-[#aaa] mt-0.5">{artwork.dimensions}</p>
         )}

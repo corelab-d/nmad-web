@@ -28,6 +28,7 @@ export default async function ObraPage({ params }: { params: Promise<{ slug: str
 
   const t = await getTranslations({ locale, namespace: 'artwork' })
   const artist = getArtistBySlug(artwork.artistSlug)
+  const titleDisplay = locale === 'en' ? (artwork.titleEn ?? artwork.title) : artwork.title
 
   const isSquareThumb = (img: string) => {
     const fname = img.split('/').pop()?.toLowerCase() ?? ''
@@ -82,7 +83,7 @@ export default async function ObraPage({ params }: { params: Promise<{ slug: str
           {/* Info panel */}
           <div className="w-full md:sticky md:top-24 md:self-start">
             <p className="text-[10px] tracking-[0.2em] uppercase text-[#888] mb-3">{artwork.artist}</p>
-            <h1 className="text-3xl md:text-4xl font-light leading-tight mb-10">{artwork.title}</h1>
+            <h1 className="text-3xl md:text-4xl font-light leading-tight mb-10">{titleDisplay}</h1>
 
             <div className="border-t border-[#e8e8e8] divide-y divide-[#e8e8e8] mb-8">
               <div className="flex justify-between py-3">

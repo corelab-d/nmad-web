@@ -21,6 +21,7 @@ export interface Artwork {
   imageSquare: string | null
   imageDetails: string[]
   allImages: string[]
+  titleEn?: string
 }
 
 export interface Artist {
