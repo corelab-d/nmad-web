@@ -1,8 +1,10 @@
 'use client'
 import { useRef, useState, useTransition } from 'react'
-import { enviarConsulta } from './actions'
+import { enviarConsulta } from '@/lib/actions'
+import { useTranslations } from 'next-intl'
 
 export default function ContactoForm({ obra, artista }: { obra?: string; artista?: string }) {
+  const t = useTranslations('contact.form')
   const [status, setStatus] = useState<'idle' | 'ok' | 'error'>('idle')
   const [errorMsg, setErrorMsg] = useState('')
   const [isPending, startTransition] = useTransition()
@@ -18,7 +20,7 @@ export default function ContactoForm({ obra, artista }: { obra?: string; artista
         formRef.current?.reset()
       } else {
         setStatus('error')
-        setErrorMsg(result.error ?? 'Error al enviar.')
+        setErrorMsg(result.error ?? t('error'))
       }
     })
   }
@@ -32,27 +34,27 @@ export default function ContactoForm({ obra, artista }: { obra?: string; artista
           <input type="hidden" name="obra" value={obra} />
           <input type="hidden" name="artista" value={artista} />
           <div className="bg-[#f5f5f5] border border-[#e8e8e8] px-4 py-3 text-sm">
-            <span className="text-[10px] tracking-widest uppercase text-[#888] block mb-0.5">Obra de interés</span>
+            <span className="text-[10px] tracking-widest uppercase text-[#888] block mb-0.5">{t('artwork')}</span>
             <span className="font-light">{obra}</span>
             {artista && <span className="text-[#888]"> — {artista}</span>}
           </div>
         </>
       )}
 
-      <input name="nombre" type="text" placeholder="Nombre" required className={inputClass} />
-      <input name="correo" type="email" placeholder="Correo electrónico" required className={inputClass} />
-      <textarea name="mensaje" placeholder="Mensaje" required rows={5} className={`${inputClass} resize-none`} />
+      <input name="nombre" type="text" placeholder={t('name')} required className={inputClass} />
+      <input name="correo" type="email" placeholder={t('email')} required className={inputClass} />
+      <textarea name="mensaje" placeholder={t('message')} required rows={5} className={`${inputClass} resize-none`} />
 
       <button
         type="submit"
         disabled={isPending}
         className="w-full py-3.5 bg-[#1a1a1a] text-[#ffffff] text-xs tracking-[0.2em] uppercase hover:bg-[#333] transition-colors disabled:opacity-50"
       >
-        {isPending ? 'Enviando…' : 'Enviar mensaje'}
+        {isPending ? t('sending') : t('send')}
       </button>
 
       {status === 'ok' && (
-        <p className="text-sm text-center text-[#555] pt-2">Mensaje enviado. Te contactamos pronto.</p>
+        <p className="text-sm text-center text-[#555] pt-2">{t('success')}</p>
       )}
       {status === 'error' && (
         <p className="text-sm text-center text-red-600 pt-2">{errorMsg}</p>

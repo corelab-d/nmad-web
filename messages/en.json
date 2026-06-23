@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "gallery": "Gallery",
+    "artists": "Artists",
+    "contact": "Contact",
+    "showroom": "Visit Showroom",
+    "lang": "ES"
+  },
+  "home": {
+    "description": "New Modern Art District - NMAD - is a nomadic and digital contemporary art gallery, exhibiting a limited collection of visual art curated by our advisory board to bring emerging artists into private exhibition spaces: your spaces.",
+    "artists": "Artists",
+    "viewAll": "View all →",
+    "services": {
+      "label": "More than art",
+      "headline": "We help you find it,\nframe it and place it.",
+      "cta": "Contact us",
+      "items": [
+        { "title": "Curation", "desc": "We select the ideal artworks for your space and lifestyle." },
+        { "title": "Decoration", "desc": "We integrate art into your interior design project." },
+        { "title": "Framing", "desc": "Custom framing and mounting solutions for every artwork." },
+        { "title": "Installation", "desc": "Professional installation in your home, office or commercial space." }
+      ]
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "collections": "Collections",
+    "artists": "Artists",
+    "filter": "Filter",
+    "available": "Available",
+    "all": "View all"
+  },
+  "artwork": {
+    "technique": "Technique",
+    "dimensions": "Dimensions",
+    "year": "Year",
+    "framing": "Framing",
+    "collection": "Collection",
+    "consult": "Inquire about this work",
+    "inquire": "I'm interested in this work",
+    "available": "Available",
+    "notAvailable": "Not available"
+  },
+  "artists": {
+    "title": "Artists",
+    "works": "works",
+    "work": "work"
+  },
+  "contact": {
+    "label": "NMAD",
+    "title": "Contact",
+    "intro": "Interested in a work or need curation, framing, or installation advice? Write to us and we'll get back to you shortly.",
+    "email": "Email",
+    "instagram": "Instagram",
+    "services": "Services",
+    "servicesList": [
+      { "title": "Curation", "desc": "We select the ideal artworks for your space and lifestyle." },
+      { "title": "Decoration", "desc": "We integrate art into your interior design project." },
+      { "title": "Framing", "desc": "Custom framing and mounting solutions for every artwork." },
+      { "title": "Installation", "desc": "Professional installation in your home, office or commercial space." },
+      { "title": "For businesses", "desc": "Art for offices, hotels, restaurants and commercial spaces." }
+    ],
+    "form": {
+      "name": "Name",
+      "email": "Email address",
+      "message": "Message",
+      "artwork": "Artwork of interest",
+      "artist": "Artist",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Message sent! We'll be in touch soon.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "showroom": {
+    "title": "Book an appointment",
+    "location": "Showroom · Álvaro Obregón · Roma Norte · CDMX",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message or suggested date",
+    "send": "Send",
+    "sending": "Sending...",
+    "success": "Done! We'll reach out to confirm.",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "navigate": "Navigate",
+    "about": "About",
+    "follow": "Follow us",
+    "aboutNmad": "About NMAD",
+    "visitShowroom": "Visit the Showroom",
+    "contact": "Contact",
+    "collections": "Collections",
+    "copyright": "© {year} NMAD · New Modern Art District",
+    "legal": "Terms & conditions · Privacy policy"
+  },
+  "legal": {
+    "label": "Legal",
+    "title": "Terms & Conditions",
+    "subtitle": "Privacy policy · NMAD · New Modern Art District"
+  },
+  "techniques": {
+    "Mixta sobre tela": "Mixed media on canvas",
+    "Óleo sobre tela": "Oil on canvas",
+    "Acrílico sobre tela": "Acrylic on canvas",
+    "Acrílico sobre papel": "Acrylic on paper",
+    "Acuarela sobre papel": "Watercolor on paper",
+    "Tinta sobre papel": "Ink on paper",
+    "Grabado": "Engraving",
+    "Fotografía": "Photography",
+    "Escultura": "Sculpture",
+    "Sin Marco": "Unframed",
+    "Con Marco": "Framed",
+    "Enmarcado": "Framed"
+  }
+}

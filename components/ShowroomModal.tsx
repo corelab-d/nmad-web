@@ -1,6 +1,6 @@
 'use client'
 import { useState, useRef } from 'react'
-import { enviarConsulta } from '@/app/contacto/actions'
+import { enviarConsulta } from '@/lib/actions'
 
 export default function ShowroomModal({ onClose }: { onClose: () => void }) {
   const [status, setStatus] = useState<'idle' | 'sending' | 'ok' | 'error'>('idle')

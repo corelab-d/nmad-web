@@ -1,13 +1,16 @@
 'use client'
-import Link from 'next/link'
 import Image from 'next/image'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter, Link } from '@/i18n/navigation'
 import { useState, useEffect } from 'react'
 import { COLLECTIONS } from '@/lib/catalog'
 import ShowroomModal from './ShowroomModal'
+import { useLocale, useTranslations } from 'next-intl'
 
 export default function Nav() {
+  const t = useTranslations('nav')
+  const locale = useLocale()
   const pathname = usePathname()
+  const router = useRouter()
   const [menuOpen, setMenuOpen] = useState(false)
   const [galeriaOpen, setGaleriaOpen] = useState(false)
   const [showroomOpen, setShowroomOpen] = useState(false)
@@ -23,6 +26,11 @@ export default function Nav() {
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
+
+  const switchLocale = () => {
+    const next = locale === 'es' ? 'en' : 'es'
+    router.replace(pathname, { locale: next })
+  }
 
   return (
     <>
@@ -54,7 +62,7 @@ export default function Nav() {
                 href="/galeria"
                 className={`text-xs tracking-[0.15em] uppercase transition-colors ${pathname?.startsWith('/galeria') ? 'text-[#1a1a1a]' : 'text-[#888] hover:text-[#1a1a1a]'}`}
               >
-                Galería
+                {t('gallery')}
               </Link>
 
               {galeriaOpen && (
@@ -77,18 +85,26 @@ export default function Nav() {
 
             <Link href="/artistas"
               className={`text-xs tracking-[0.15em] uppercase transition-colors ${pathname?.startsWith('/artistas') ? 'text-[#1a1a1a]' : 'text-[#888] hover:text-[#1a1a1a]'}`}>
-              Artistas
+              {t('artists')}
             </Link>
             <Link href="/contacto"
               className={`text-xs tracking-[0.15em] uppercase transition-colors ${pathname?.startsWith('/contacto') ? 'text-[#1a1a1a]' : 'text-[#888] hover:text-[#1a1a1a]'}`}>
-              Contacto
+              {t('contact')}
             </Link>
 
             <button
               onClick={() => setShowroomOpen(true)}
               className="text-xs tracking-[0.15em] uppercase px-4 py-2 border border-[#1a1a1a] text-[#1a1a1a] hover:bg-[#1a1a1a] hover:text-white transition-colors"
             >
-              Visita Showroom
+              {t('showroom')}
+            </button>
+
+            {/* Language switcher */}
+            <button
+              onClick={switchLocale}
+              className="text-[10px] tracking-[0.2em] uppercase text-[#aaa] hover:text-[#1a1a1a] transition-colors"
+            >
+              {t('lang')}
             </button>
           </nav>
 
@@ -107,7 +123,7 @@ export default function Nav() {
           <nav className="md:hidden bg-[#ffffff] border-t border-[#e8e8e8]">
             <Link href="/galeria" onClick={() => setMenuOpen(false)}
               className="block px-6 py-4 text-xs tracking-widest uppercase border-b border-[#e8e8e8] text-[#888] hover:text-[#1a1a1a]">
-              Galería
+              {t('gallery')}
             </Link>
             {COLLECTIONS.map((c) => (
               <Link key={c.slug} href={`/galeria?coleccion=${c.slug}`} onClick={() => setMenuOpen(false)}
@@ -117,16 +133,21 @@ export default function Nav() {
             ))}
             <Link href="/artistas" onClick={() => setMenuOpen(false)}
               className="block px-6 py-4 text-xs tracking-widest uppercase border-b border-[#e8e8e8] text-[#888] hover:text-[#1a1a1a]">
-              Artistas
+              {t('artists')}
             </Link>
             <Link href="/contacto" onClick={() => setMenuOpen(false)}
               className="block px-6 py-4 text-xs tracking-widest uppercase border-b border-[#e8e8e8] text-[#888] hover:text-[#1a1a1a]">
-              Contacto
+              {t('contact')}
             </Link>
             <button
               onClick={() => { setMenuOpen(false); setShowroomOpen(true) }}
-              className="block w-full text-left px-6 py-4 text-xs tracking-widest uppercase text-[#1a1a1a] font-medium hover:bg-[#f5f5f5]">
-              Visita Showroom
+              className="block w-full text-left px-6 py-4 text-xs tracking-widest uppercase border-b border-[#e8e8e8] text-[#1a1a1a] font-medium hover:bg-[#f5f5f5]">
+              {t('showroom')}
+            </button>
+            <button
+              onClick={() => { setMenuOpen(false); switchLocale() }}
+              className="block w-full text-left px-6 py-4 text-xs tracking-widest uppercase text-[#888] hover:text-[#1a1a1a]">
+              {t('lang')}
             </button>
           </nav>
         )}

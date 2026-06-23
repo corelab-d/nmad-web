@@ -3,14 +3,17 @@ import { useState, useMemo, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
 import { Artwork, Artist } from '@/lib/catalog'
 import ArtworkCard from '@/components/ArtworkCard'
+import { useTranslations } from 'next-intl'
 
 interface Props {
   artworks: Artwork[]
   artists: Artist[]
   collections: { slug: string; label: string }[]
+  locale: string
 }
 
-export default function GaleriaClient({ artworks, artists, collections }: Props) {
+export default function GaleriaClient({ artworks, artists, collections, locale }: Props) {
+  const t = useTranslations('gallery')
   const searchParams = useSearchParams()
   const [filterArtist, setFilterArtist] = useState<string>('all')
   const [filterCollection, setFilterCollection] = useState<string>('all')
@@ -36,18 +39,23 @@ export default function GaleriaClient({ artworks, artists, collections }: Props)
         : 'border-[#e8e8e8] text-[#888] hover:border-[#1a1a1a] hover:text-[#1a1a1a]'
     }`
 
+  const allLabel = locale === 'en' ? 'All' : 'Todas'
+  const allArtistsLabel = locale === 'en' ? 'All artists' : 'Todos'
+  const noResultsLabel = locale === 'en' ? 'No works match these filters.' : 'No hay obras con estos filtros.'
+  const worksLabel = locale === 'en' ? 'works' : 'obras'
+
   return (
     <div className="max-w-6xl mx-auto px-6 py-12">
       <div className="mb-10">
-        <h1 className="text-3xl font-light tracking-wide">Galería</h1>
-        <p className="text-[#888] text-xs mt-1">{filtered.length} obras</p>
+        <h1 className="text-3xl font-light tracking-wide">{t('title')}</h1>
+        <p className="text-[#888] text-xs mt-1">{filtered.length} {worksLabel}</p>
       </div>
 
       <div className="space-y-4 mb-10 pb-8 border-b border-[#e8e8e8]">
         {/* Collections — always visible */}
         <div className="flex flex-wrap gap-2">
           <button onClick={() => { setFilterCollection('all'); setFilterArtist('all') }} className={pill(filterCollection === 'all' && filterArtist === 'all')}>
-            Todas
+            {allLabel}
           </button>
           {collections.map((c) => (
             <button key={c.slug} onClick={() => { setFilterCollection(c.slug); setFilterArtist('all') }} className={pill(filterCollection === c.slug)}>
@@ -67,15 +75,15 @@ export default function GaleriaClient({ artworks, artists, collections }: Props)
             }`}
           >
             {filterArtist !== 'all'
-              ? artists.find((a) => a.slug === filterArtist)?.name ?? 'Artista'
-              : 'Artistas'}
+              ? artists.find((a) => a.slug === filterArtist)?.name ?? t('artists')
+              : t('artists')}
             <span className="opacity-50">{artistsOpen ? '−' : '+'}</span>
           </button>
 
           {artistsOpen && (
             <div className="flex flex-wrap gap-2 mt-3">
               <button onClick={() => { setFilterArtist('all'); setFilterCollection('all'); setArtistsOpen(false) }} className={pill(filterArtist === 'all')}>
-                Todos
+                {allArtistsLabel}
               </button>
               {artists.map((a) => (
                 <button key={a.slug} onClick={() => { setFilterArtist(a.slug); setFilterCollection('all'); setArtistsOpen(false) }} className={pill(filterArtist === a.slug)}>
@@ -89,7 +97,7 @@ export default function GaleriaClient({ artworks, artists, collections }: Props)
 
       {/* Grid */}
       {filtered.length === 0 ? (
-        <p className="text-[#888] text-center py-20">No hay obras con estos filtros.</p>
+        <p className="text-[#888] text-center py-20">{noResultsLabel}</p>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-x-5 gap-y-10">
           {filtered.map((artwork) => (

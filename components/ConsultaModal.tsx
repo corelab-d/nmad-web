@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useRef, useState, useTransition } from 'react'
-import { enviarConsulta } from '@/app/contacto/actions'
+import { enviarConsulta } from '@/lib/actions'
 
 interface Props {
   obra: string
