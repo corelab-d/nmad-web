@@ -39,12 +39,18 @@ export default function ContactoPageClient() {
           </div>
 
           <div className="border-t border-[#e8e8e8] pt-8">
-            <p className="text-[10px] tracking-widest uppercase text-[#888] mb-4">Servicios</p>
-            <ul className="space-y-2 text-sm text-[#555]">
-              {['Curaduría', 'Decoración', 'Enmarcado', 'Colocación', 'Para negocios'].map((s) => (
-                <li key={s} className="flex items-center gap-2">
-                  <span className="w-1 h-1 rounded-full bg-[#bbb]" />
-                  {s}
+            <p className="text-[10px] tracking-widest uppercase text-[#888] mb-6">Servicios</p>
+            <ul className="space-y-5">
+              {[
+                { title: 'Curaduría', desc: 'Seleccionamos las obras ideales para tu espacio y estilo de vida.' },
+                { title: 'Decoración', desc: 'Integramos el arte en tu proyecto de interiorismo.' },
+                { title: 'Enmarcado', desc: 'Soluciones de montaje y enmarcado a medida para cada obra.' },
+                { title: 'Colocación', desc: 'Instalación profesional en tu hogar, oficina o espacio comercial.' },
+                { title: 'Para negocios', desc: 'Arte para oficinas, hoteles, restaurantes y espacios comerciales.' },
+              ].map((s) => (
+                <li key={s.title}>
+                  <p className="text-xs tracking-[0.1em] uppercase text-[#1a1a1a] mb-1">{s.title}</p>
+                  <p className="text-xs text-[#888] leading-relaxed">{s.desc}</p>
                 </li>
               ))}
             </ul>
