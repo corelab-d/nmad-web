@@ -5,6 +5,7 @@ import ObraGallery from './ObraGallery'
 import ArtworkCard from '@/components/ArtworkCard'
 import ConsultarBtn from './ConsultarBtn'
 import { getTranslations } from 'next-intl/server'
+import { translateTechnique, translateFraming } from '@/lib/translate-technique'
 
 export async function generateStaticParams() {
   return getAllArtworks().map((a) => ({ slug: a.slug }))
@@ -51,9 +52,12 @@ export default async function ObraPage({ params }: { params: Promise<{ slug: str
   const moreWorksLabel = locale === 'en' ? 'View more works →' : 'Ver más obras →'
   const priceLabel = locale === 'en' ? 'Price on request' : 'Precio a consultar'
 
-  // Translate technique if possible
-  const techniqueDisplay = artwork.technique || '—'
-  const framingDisplay = artwork.framing || '—'
+  const techniqueDisplay = locale === 'en' && artwork.technique
+    ? translateTechnique(artwork.technique)
+    : (artwork.technique || '—')
+  const framingDisplay = locale === 'en' && artwork.framing
+    ? translateFraming(artwork.framing)
+    : (artwork.framing || '—')
 
   return (
     <div className="min-h-screen">
