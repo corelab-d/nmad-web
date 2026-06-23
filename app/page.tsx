@@ -65,15 +65,31 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact CTA */}
-      <section className="border-t border-[#e8e8e8] py-16 px-6 text-center bg-[#f5f5f5]">
-        <div className="max-w-xl mx-auto">
-          <p className="text-[10px] tracking-[0.3em] uppercase text-[#888] mb-4">¿Interesado?</p>
-          <h2 className="text-2xl font-light mb-4">Encuentra la obra perfecta para tu espacio</h2>
-          <p className="text-[#555] text-sm mb-8">Ofrecemos asesoría de curaduría, enmarcado y colocación.</p>
-          <Link href="/contacto" className="inline-block px-8 py-3 border border-[#1a1a1a] text-xs tracking-[0.2em] uppercase hover:bg-[#1a1a1a] hover:text-[#ffffff] transition-colors">
-            Contactar
-          </Link>
+      {/* Services strip */}
+      <section className="border-t border-[#e8e8e8] py-16 px-6 bg-[#f5f5f5]">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-10 mb-12">
+            <div>
+              <p className="text-[10px] tracking-[0.3em] uppercase text-[#888] mb-3">Más que arte</p>
+              <h2 className="text-2xl font-light leading-snug">Te ayudamos a encontrarlo,<br />enmarcarlo y colocarlo.</h2>
+            </div>
+            <Link href="/contacto" className="self-start md:self-auto inline-block px-8 py-3 border border-[#1a1a1a] text-xs tracking-[0.2em] uppercase hover:bg-[#1a1a1a] hover:text-[#ffffff] transition-colors shrink-0">
+              Contáctanos
+            </Link>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-[#e8e8e8]">
+            {[
+              { title: 'Curaduría', desc: 'Seleccionamos las obras ideales para tu espacio y estilo de vida.' },
+              { title: 'Decoración', desc: 'Integramos el arte en tu proyecto de interiorismo.' },
+              { title: 'Enmarcado', desc: 'Soluciones de montaje y enmarcado a medida para cada obra.' },
+              { title: 'Colocación', desc: 'Instalación profesional en tu hogar, oficina o espacio comercial.' },
+            ].map((s) => (
+              <div key={s.title} className="bg-[#f5f5f5] p-6">
+                <p className="text-xs tracking-[0.15em] uppercase text-[#1a1a1a] mb-3">{s.title}</p>
+                <p className="text-xs text-[#888] leading-relaxed">{s.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </div>
