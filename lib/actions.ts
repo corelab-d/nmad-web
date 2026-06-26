@@ -36,7 +36,8 @@ ${mensaje}
       text: cuerpo,
     })
     return { ok: true }
-  } catch {
+  } catch (err) {
+    console.error('Resend error:', err)
     return { ok: false, error: 'No se pudo enviar el mensaje. Intenta de nuevo.' }
   }
 }
