@@ -76,9 +76,9 @@ function Cell({ artwork, locale, style }: { artwork: Artwork, locale: string, st
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      {artwork.imageMain && (
+      {(artwork.featuredImage || artwork.imageMain) && (
         <Image
-          src={artwork.imageMain}
+          src={artwork.featuredImage || artwork.imageMain!}
           alt={artwork.title}
           fill
           unoptimized

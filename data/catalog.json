@@ -1339,7 +1339,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/AMILLATEGUI%2Bnomada_detalle%2Bcopy.png",
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/AMILLATEGUI%2Bnomada_FULL%2Bcopy.png"
       ],
-      "featured": true
+      "featured": true,
+      "featuredImage": "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/AMILLATEGUI%2Bnomada_FULL%2Bcopy.png"
     },
     {
       "id": "65c018e8071e01273194301b",
@@ -2773,7 +2774,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Iker%2B6.jpg"
       ],
       "titleEn": "I Take the Subway",
-      "featured": true
+      "featured": true,
+      "featuredImage": "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/me-vengo-en-metro-iker-grandio/detalle2.png"
     },
     {
       "id": "6733ae134ed6a17fd914fb35",
@@ -3025,7 +3027,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Ramon%2B3.jpg"
       ],
       "titleEn": "Apocalyptic Dream",
-      "featured": true
+      "featured": true,
+      "featuredImage": "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/sueno-apocaliptico-ramon-penaloza/detalle1.png"
     },
     {
       "id": "6733b1284b2db872ed0f485d",
@@ -5031,7 +5034,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/2_Obra_Mano_ToroAmilltegui.png"
       ],
       "titleEn": "Hand",
-      "featured": true
+      "featured": true,
+      "featuredImage": "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/2_Obra_Mano_ToroAmilltegui.png"
     },
     {
       "id": "6902a5adc0de355e05634bfb",
@@ -5332,7 +5336,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Gemini_Generated_Image_syfkposyfkposyfk.png"
       ],
       "titleEn": "Shipwreck",
-      "featured": true
+      "featured": true,
+      "featuredImage": "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Gemini_Generated_Image_syfkposyfkposyfk.png"
     },
     {
       "id": "691f54ede5673e556999147e",
@@ -6054,7 +6059,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Felipe%2BOlivares.jpeg"
       ],
       "titleEn": "Sleepless",
-      "featured": true
+      "featured": true,
+      "featuredImage": "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Felipe%2BOlivares.jpeg"
     },
     {
       "id": "69b9eea7323a3038c5694500",
@@ -6090,7 +6096,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Fernando%2Besteban.jpeg"
       ],
       "titleEn": "Inward Landscape",
-      "featured": true
+      "featured": true,
+      "featuredImage": "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Fero%2B2.png"
     },
     {
       "id": "69b9ef325ea5c44572d73ed5",
@@ -6284,7 +6291,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Maria%2BPortilla%2B2.jpeg"
       ],
       "titleEn": "Still Life with Wine",
-      "featured": true
+      "featured": true,
+      "featuredImage": "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Maria%2BPortilla%2B2.jpeg"
     },
     {
       "id": "69b9f4ed9b89eb0a59c68cca",
@@ -6457,7 +6465,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Ramon%2B1.png",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/0f4c4bf7-101a-46bd-baa5-1b8b17de6714/Ramon+Pen%CC%83aloza.jpeg"
       ],
-      "featured": true
+      "featured": true,
+      "featuredImage": "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Ramon%2B1.png"
     }
   ],
   "artists": [

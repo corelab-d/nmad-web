@@ -23,6 +23,7 @@ export interface Artwork {
   allImages: string[]
   titleEn?: string
   featured?: boolean
+  featuredImage?: string
 }
 
 export interface Artist {
