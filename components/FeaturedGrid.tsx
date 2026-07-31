@@ -86,24 +86,19 @@ function Cell({ artwork, locale, style }: { artwork: Artwork, locale: string, st
           style={{ transform: hovered ? 'scale(1.04)' : 'scale(1)' }}
         />
       )}
-      {/* Overlay */}
+      {/* Overlay — always visible, darkens on hover */}
       <div
-        className="absolute inset-0 flex flex-col justify-end p-5 transition-all duration-400"
-        style={{ background: hovered ? 'rgba(0,0,0,0.55)' : 'rgba(0,0,0,0)' }}
+        className="absolute inset-0 flex flex-col justify-end p-5 transition-all duration-300"
+        style={{ background: hovered ? 'rgba(0,0,0,0.55)' : 'rgba(0,0,0,0.30)' }}
       >
-        <div
-          className="transition-all duration-300"
-          style={{ opacity: hovered ? 1 : 0, transform: hovered ? 'translateY(0)' : 'translateY(8px)' }}
+        <p className="text-[11px] text-white/70 tracking-widest uppercase mb-1">{displayTitle}</p>
+        <p className="text-base font-light text-white mb-4 leading-snug">{artwork.artist}</p>
+        <Link
+          href={`/artistas/${artwork.artistSlug}`}
+          className="inline-block text-[10px] tracking-[0.18em] uppercase text-white border border-white/50 px-4 py-2 hover:bg-white hover:text-[#1a1a1a] transition-colors w-fit"
         >
-          <p className="text-[11px] text-white/60 tracking-widest uppercase mb-1">{displayTitle}</p>
-          <p className="text-base font-light text-white mb-4 leading-snug">{artwork.artist}</p>
-          <Link
-            href={`/artistas/${artwork.artistSlug}`}
-            className="inline-block text-[10px] tracking-[0.18em] uppercase text-white border border-white/50 px-4 py-2 hover:bg-white hover:text-[#1a1a1a] transition-colors"
-          >
-            {locale === 'en' ? 'View artist →' : 'Ver artista →'}
-          </Link>
-        </div>
+          {locale === 'en' ? 'View artist →' : 'Ver artista →'}
+        </Link>
       </div>
     </div>
   )
