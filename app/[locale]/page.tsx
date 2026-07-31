@@ -41,6 +41,18 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* Featured grid */}
       <FeaturedGrid artworks={featured} locale={locale} />
 
+      {/* Artists strip */}
+      <section className="border-b border-[#e8e8e8] py-5 px-6 overflow-x-auto">
+        <div className="max-w-6xl mx-auto flex gap-6 justify-center flex-wrap">
+          {artists.map((a) => (
+            <Link key={a.slug} href={`/artistas/${a.slug}`}
+              className="text-[10px] tracking-[0.2em] uppercase text-[#888] hover:text-[#1a1a1a] transition-colors whitespace-nowrap">
+              {a.name}
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* Collections nav strip */}
       <section className="border-b border-[#e8e8e8] py-5 px-6 overflow-x-auto">
         <div className="max-w-6xl mx-auto flex gap-6 justify-center flex-wrap">
