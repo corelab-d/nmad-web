@@ -41,7 +41,7 @@ export default async function ArtistaPage({ params }: { params: Promise<{ slug: 
         <div className="max-w-2xl mb-16">
           <p className="text-[10px] tracking-[0.3em] uppercase text-[#888] mb-3">{artistLabel}</p>
           <h1 className="text-3xl font-light mb-8">{artist.name}</h1>
-          {bio && <p className="text-xl font-light leading-snug text-[#1a1a1a]">{bio}</p>}
+          {bio && <p className="text-xs tracking-[0.15em] uppercase text-[#888] leading-relaxed">{bio}</p>}
         </div>
 
         <div className="border-t border-[#e8e8e8] pt-12">

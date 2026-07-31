@@ -32,7 +32,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* Hero */}
       <section className="border-b border-[#e8e8e8] py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <p className="text-2xl md:text-3xl font-light leading-snug text-[#1a1a1a]">
+          <p className="text-xs tracking-[0.15em] uppercase text-[#888] leading-relaxed">
             {t('description')}
           </p>
         </div>
