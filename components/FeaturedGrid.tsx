@@ -89,7 +89,7 @@ function Cell({ artwork, locale, style }: { artwork: Artwork, locale: string, st
       {/* Overlay — always visible, darkens on hover */}
       <div
         className="absolute inset-0 flex flex-col justify-end p-5 transition-all duration-300"
-        style={{ background: hovered ? 'rgba(0,0,0,0.55)' : 'rgba(0,0,0,0.30)' }}
+        style={{ background: hovered ? 'rgba(0,0,0,0.50)' : 'rgba(0,0,0,0)' }}
       >
         <p className="text-[11px] text-white/70 tracking-widest uppercase mb-1">{displayTitle}</p>
         <p className="text-base font-light text-white mb-4 leading-snug">{artwork.artist}</p>
