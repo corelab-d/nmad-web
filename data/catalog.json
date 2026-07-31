@@ -1338,7 +1338,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Screenshot%2B2024-02-22%2Bat%2B7.49.41.png",
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/AMILLATEGUI%2Bnomada_detalle%2Bcopy.png",
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/AMILLATEGUI%2Bnomada_FULL%2Bcopy.png"
-      ]
+      ],
+      "featured": true
     },
     {
       "id": "65c018e8071e01273194301b",
@@ -2058,8 +2059,7 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Fernando%2BEsteban%2B-%2BBlanco%2By%2BNegro%2BSQ.png",
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Fernando%2BEsteban%2B-%2BBlanco%2By%2BNegro%2B1.png"
       ],
-      "titleEn": "Black and White",
-      "featured": true
+      "titleEn": "Black and White"
     },
     {
       "id": "661f4d56666a043afb9ae655",
@@ -2578,8 +2578,7 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/ExpoNOMAD-AO177-YLL_0992.jpg",
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/ExpoNOMAD-AO177-YLL_0990.jpg"
       ],
-      "titleEn": "The Beginning",
-      "featured": true
+      "titleEn": "The Beginning"
     },
     {
       "id": "6733ab4876b5ab1e9ba2808a",
@@ -4997,8 +4996,7 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/1_Detalle_2_Serie_Lumpen_toro_Amillategui.JPG",
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/1_Detalle_1_Serie_Lumpen_toro_Amillategui.JPG.JPG",
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/1_Obra_Serie_Lumpen_toro_Amillategui.JPG"
-      ],
-      "featured": true
+      ]
     },
     {
       "id": "6902a45a5d728f36d2dc1ed4",
@@ -5032,7 +5030,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/2_Full_Mano_Toro%2BAmmillategui.png",
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/2_Obra_Mano_ToroAmilltegui.png"
       ],
-      "titleEn": "Hand"
+      "titleEn": "Hand",
+      "featured": true
     },
     {
       "id": "6902a5adc0de355e05634bfb",
@@ -5332,7 +5331,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Gemini_Generated_Image_nlo2fmnlo2fmnlo2.png",
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Gemini_Generated_Image_syfkposyfkposyfk.png"
       ],
-      "titleEn": "Shipwreck"
+      "titleEn": "Shipwreck",
+      "featured": true
     },
     {
       "id": "691f54ede5673e556999147e",
@@ -5984,8 +5984,7 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Bruno%2B1.png",
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Buno%2BBerthier.jpeg"
       ],
-      "titleEn": "Woman with Dove",
-      "featured": true
+      "titleEn": "Woman with Dove"
     },
     {
       "id": "69b9ebe4a4f7671b39874e74",
@@ -6090,7 +6089,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Fero%2B1.png",
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Fernando%2Besteban.jpeg"
       ],
-      "titleEn": "Inward Landscape"
+      "titleEn": "Inward Landscape",
+      "featured": true
     },
     {
       "id": "69b9ef325ea5c44572d73ed5",
@@ -6456,7 +6456,8 @@
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Gemini_Generated_Image_oj5qfsoj5qfsoj5q.png",
         "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/squarespace-migration/Ramon%2B1.png",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/0f4c4bf7-101a-46bd-baa5-1b8b17de6714/Ramon+Pen%CC%83aloza.jpeg"
-      ]
+      ],
+      "featured": true
     }
   ],
   "artists": [
