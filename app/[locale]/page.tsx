@@ -30,9 +30,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   return (
     <div>
       {/* Hero */}
-      <section className="border-b border-[#e8e8e8] py-20 px-6 text-center">
+      <section className="border-b border-[#e8e8e8] py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <p className="text-base md:text-lg font-light leading-relaxed text-[#1a1a1a]">
+          <p className="text-2xl md:text-3xl font-light leading-snug text-[#1a1a1a]">
             {t('description')}
           </p>
         </div>
