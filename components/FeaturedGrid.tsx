@@ -44,15 +44,14 @@ export default function FeaturedGrid({ artworks, locale: localeProp }: { artwork
   const [big, wide, sm1, sm2] = items
 
   return (
-    <section className="border-b border-[#e8e8e8]">
+    <section>
       <div
-        className="grid"
         style={{
           display: 'grid',
           gridTemplateColumns: '2fr 1fr 1fr',
           gridTemplateRows: '340px 220px',
           gap: '2px',
-          background: '#1a1a1a',
+          background: '#111',
         }}
       >
         {/* Grande izquierda — ocupa 2 filas */}
