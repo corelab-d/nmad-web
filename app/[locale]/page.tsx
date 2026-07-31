@@ -2,6 +2,7 @@ import { Link } from '@/i18n/navigation'
 import Image from 'next/image'
 import { getAllArtworks, getAllArtists, COLLECTIONS } from '@/lib/catalog'
 import ArtworkCard from '@/components/ArtworkCard'
+import FeaturedGrid from '@/components/FeaturedGrid'
 import { getTranslations } from 'next-intl/server'
 export const dynamic = 'force-dynamic'
 
@@ -12,6 +13,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
   const shuffle = <T,>(arr: T[]) => arr.sort(() => Math.random() - 0.5)
   const all = getAllArtworks()
+  const featured = all.filter(a => a.featured)
   const groupA = all.filter(a => a.imageDetails.length >= 2)
   const groupB = all.filter(a => a.imageDetails.length === 1)
   const groupC = all.filter(a => a.imageDetails.length === 0)
@@ -35,6 +37,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </p>
         </div>
       </section>
+
+      {/* Featured grid */}
+      <FeaturedGrid artworks={featured} locale={locale} />
 
       {/* Collections nav strip */}
       <section className="border-b border-[#e8e8e8] py-5 px-6 overflow-x-auto">

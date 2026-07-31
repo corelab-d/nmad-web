@@ -2058,7 +2058,8 @@
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/1713327141321-BURF9WZ3DWJWODPY5B3S/Fernando+Esteban+-+Blanco+y+Negro+SQ.png",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/1713327142467-9BF05EK3DHDUX45IKVMU/Fernando+Esteban+-+Blanco+y+Negro+1.png"
       ],
-      "titleEn": "Black and White"
+      "titleEn": "Black and White",
+      "featured": true
     },
     {
       "id": "661f4d56666a043afb9ae655",
@@ -2577,7 +2578,8 @@
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/1713815992091-M8BNZ67R98M0JQ9D3UYR/ExpoNOMAD-AO177-YLL_0992.jpg",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/1713815994219-V6OT2YG2JGTT3RHBMHGX/ExpoNOMAD-AO177-YLL_0990.jpg"
       ],
-      "titleEn": "The Beginning"
+      "titleEn": "The Beginning",
+      "featured": true
     },
     {
       "id": "6733ab4876b5ab1e9ba2808a",
@@ -2771,7 +2773,8 @@
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/961500a2-3f77-4bce-95ae-e5764f9d3961/Iker+7.jpg",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/b9f4421d-c163-4618-87c0-550e508716b0/Iker+6.jpg"
       ],
-      "titleEn": "I Take the Subway"
+      "titleEn": "I Take the Subway",
+      "featured": true
     },
     {
       "id": "6733ae134ed6a17fd914fb35",
@@ -3022,7 +3025,8 @@
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/cd5a7200-dd34-4383-b4c7-68e3b6626770/Ramon+4.jpg",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/085fe84d-0d18-431e-a623-ec8fdd58eb90/Ramon+3.jpg"
       ],
-      "titleEn": "Apocalyptic Dream"
+      "titleEn": "Apocalyptic Dream",
+      "featured": true
     },
     {
       "id": "6733b1284b2db872ed0f485d",
@@ -4993,7 +4997,8 @@
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/bdaf4be7-3a19-4bdb-8485-a4978848e88b/1_Detalle_2_Serie_Lumpen_toro_Amillategui.JPG",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/b4c1732b-9dfe-4801-adfe-b8ed1dea2ca4/1_Detalle_1_Serie_Lumpen_toro_Amillategui.JPG.JPG",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/785b707a-d6c2-46b0-ac6d-0bff97ea143e/1_Obra_Serie_Lumpen_toro_Amillategui.JPG"
-      ]
+      ],
+      "featured": true
     },
     {
       "id": "6902a45a5d728f36d2dc1ed4",
@@ -5979,7 +5984,8 @@
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/3b81a915-3235-4a38-adb1-0f458d572ffb/Bruno+1.png",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/5707da39-d021-44e1-9c37-6922641eef0e/Buno+Berthier.jpeg"
       ],
-      "titleEn": "Woman with Dove"
+      "titleEn": "Woman with Dove",
+      "featured": true
     },
     {
       "id": "69b9ebe4a4f7671b39874e74",
@@ -6048,7 +6054,8 @@
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/d4af5be2-cb65-46a3-8c4a-6c523f344d4e/Felioe+olivares+4.png",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/6110eaf2-1836-4791-8f2a-9d77e33f9b61/Felipe+Olivares.jpeg"
       ],
-      "titleEn": "Sleepless"
+      "titleEn": "Sleepless",
+      "featured": true
     },
     {
       "id": "69b9eea7323a3038c5694500",
@@ -6276,7 +6283,8 @@
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/b79d7723-7950-496d-bf9c-2289324181cd/Maria+Portilla+1.png",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/1ec53134-e986-488d-b508-d7b477804fdb/Maria+Portilla+2.jpeg"
       ],
-      "titleEn": "Still Life with Wine"
+      "titleEn": "Still Life with Wine",
+      "featured": true
     },
     {
       "id": "69b9f4ed9b89eb0a59c68cca",
