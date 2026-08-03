@@ -15,7 +15,7 @@ const securityHeaders = [
       "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
       "font-src 'self' https://fonts.gstatic.com",
-      "img-src 'self' data: blob: https://images.squarespace-cdn.com https://*.public.blob.vercel-storage.com",
+      "img-src 'self' data: blob: https://images.squarespace-cdn.com https://*.public.blob.vercel-storage.com https://pub-c363c24f86204416a51ce011c270c443.r2.dev",
       "connect-src 'self'",
       "frame-ancestors 'none'",
     ].join('; '),
@@ -32,6 +32,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: '*.public.blob.vercel-storage.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'pub-c363c24f86204416a51ce011c270c443.r2.dev',
       },
     ],
   },

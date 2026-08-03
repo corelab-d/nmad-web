@@ -2756,14 +2756,20 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/e4e8a297-c85a-4ff2-a074-7236af37e234/Vol3_Portadas.008.jpeg",
       "imageSquare": null,
-      "imageDetails": [],
+      "imageDetails": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/me-vengo-en-metro-iker-grandio/detalle1.png",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/me-vengo-en-metro-iker-grandio/detalle2.png",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/me-vengo-en-metro-iker-grandio/detalle3.png"
+      ],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/e4e8a297-c85a-4ff2-a074-7236af37e234/Vol3_Portadas.008.jpeg",
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/961500a2-3f77-4bce-95ae-e5764f9d3961/Iker+7.jpg",
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/b9f4421d-c163-4618-87c0-550e508716b0/Iker+6.jpg"
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/me-vengo-en-metro-iker-grandio/detalle1.png",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/me-vengo-en-metro-iker-grandio/detalle2.png",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/me-vengo-en-metro-iker-grandio/detalle3.png"
       ],
       "titleEn": "I Take the Subway",
-      "featured": true
+      "featured": true,
+      "featuredImage": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/me-vengo-en-metro-iker-grandio/detalle3.png"
     },
     {
       "id": "6733ae134ed6a17fd914fb35",
@@ -3002,15 +3008,20 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/2557ee80-4992-4228-a0be-cfd463374baf/Vol3_Portadas.017.jpeg",
       "imageSquare": null,
-      "imageDetails": [],
+      "imageDetails": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/sueno-apocaliptico-ramon-penaloza/detalle1.png",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/sueno-apocaliptico-ramon-penaloza/detalle2.png",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/sueno-apocaliptico-ramon-penaloza/detalle3.png"
+      ],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/2557ee80-4992-4228-a0be-cfd463374baf/Vol3_Portadas.017.jpeg",
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/420caaca-3cc1-41ba-a50d-620d0093ac8d/Ramon+4+copy.jpg",
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/cd5a7200-dd34-4383-b4c7-68e3b6626770/Ramon+4.jpg",
-        "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/085fe84d-0d18-431e-a623-ec8fdd58eb90/Ramon+3.jpg"
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/sueno-apocaliptico-ramon-penaloza/detalle1.png",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/sueno-apocaliptico-ramon-penaloza/detalle2.png",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/sueno-apocaliptico-ramon-penaloza/detalle3.png"
       ],
       "titleEn": "Apocalyptic Dream",
-      "featured": true
+      "featured": true,
+      "featuredImage": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/sueno-apocaliptico-ramon-penaloza/detalle2.png"
     },
     {
       "id": "6733b1284b2db872ed0f485d",
