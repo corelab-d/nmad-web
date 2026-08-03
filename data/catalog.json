@@ -2049,19 +2049,13 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/5da8ea59-6fef-41af-8434-6107262f3589/Screenshot+2024-10-23+at+17.54.36.png",
       "imageSquare": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/1713327141321-BURF9WZ3DWJWODPY5B3S/Fernando+Esteban+-+Blanco+y+Negro+SQ.png",
-      "imageDetails": [
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/blanco-y-negro-fernando-esteban/sala.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/blanco-y-negro-fernando-esteban/detalle1.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/blanco-y-negro-fernando-esteban/detalle2.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/blanco-y-negro-fernando-esteban/detalle3.png"
-      ],
+      "imageDetails": [],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/5da8ea59-6fef-41af-8434-6107262f3589/Screenshot+2024-10-23+at+17.54.36.png",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/1713327141321-BURF9WZ3DWJWODPY5B3S/Fernando+Esteban+-+Blanco+y+Negro+SQ.png",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/1713327142467-9BF05EK3DHDUX45IKVMU/Fernando+Esteban+-+Blanco+y+Negro+1.png"
       ],
-      "titleEn": "Black and White",
-      "featured": true
+      "titleEn": "Black and White"
     },
     {
       "id": "661f4d56666a043afb9ae655",
@@ -2111,7 +2105,6 @@
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/26afc898-99ff-4458-a35b-e7e9e69ed79a/Screenshot+2024-10-23+at+18.10.48.png",
       "imageSquare": null,
       "imageDetails": [
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/paisaje-3-gustavo-penaloza/sala.png",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/1713364845887-FK0TST5VFNVQ62WRTXUS/Gustavo+Pen%CC%83aloza+-+Paisaje+3+-+5.jpg",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/1713364843462-LR5C0TOB7XN6OMIAAUB3/Gustavo+Pen%CC%83aloza+-+Paisaje+3+-+3.jpg",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/1713364844724-KJYA7AKFUFFPJQ8LP0W3/Gustavo+Pen%CC%83aloza+-+Paisaje+3+-+4.jpg",
@@ -2580,8 +2573,7 @@
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/1713815992091-M8BNZ67R98M0JQ9D3UYR/ExpoNOMAD-AO177-YLL_0992.jpg",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/1713815994219-V6OT2YG2JGTT3RHBMHGX/ExpoNOMAD-AO177-YLL_0990.jpg"
       ],
-      "titleEn": "The Beginning",
-      "featured": true
+      "titleEn": "The Beginning"
     },
     {
       "id": "6733ab4876b5ab1e9ba2808a",
@@ -2764,12 +2756,7 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/e4e8a297-c85a-4ff2-a074-7236af37e234/Vol3_Portadas.008.jpeg",
       "imageSquare": null,
-      "imageDetails": [
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/me-vengo-en-metro-iker-grandio/sala.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/me-vengo-en-metro-iker-grandio/detalle1.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/me-vengo-en-metro-iker-grandio/detalle2.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/me-vengo-en-metro-iker-grandio/detalle3.png"
-      ],
+      "imageDetails": [],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/e4e8a297-c85a-4ff2-a074-7236af37e234/Vol3_Portadas.008.jpeg",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/961500a2-3f77-4bce-95ae-e5764f9d3961/Iker+7.jpg",
@@ -3015,12 +3002,7 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/2557ee80-4992-4228-a0be-cfd463374baf/Vol3_Portadas.017.jpeg",
       "imageSquare": null,
-      "imageDetails": [
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/sueno-apocaliptico-ramon-penaloza/sala.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/sueno-apocaliptico-ramon-penaloza/detalle1.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/sueno-apocaliptico-ramon-penaloza/detalle2.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/sueno-apocaliptico-ramon-penaloza/detalle3.png"
-      ],
+      "imageDetails": [],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/2557ee80-4992-4228-a0be-cfd463374baf/Vol3_Portadas.017.jpeg",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/420caaca-3cc1-41ba-a50d-620d0093ac8d/Ramon+4+copy.jpg",
@@ -4806,12 +4788,7 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/f266611b-52c0-4863-84d8-9fbbbb37413d/Vol4_Portadas.015.jpeg",
       "imageSquare": null,
-      "imageDetails": [
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/hibiscus-paula-bernard/sala.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/hibiscus-paula-bernard/detalle1.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/hibiscus-paula-bernard/detalle2.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/hibiscus-paula-bernard/detalle3.png"
-      ],
+      "imageDetails": [],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/f266611b-52c0-4863-84d8-9fbbbb37413d/Vol4_Portadas.015.jpeg"
       ]
@@ -4999,8 +4976,7 @@
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/bdaf4be7-3a19-4bdb-8485-a4978848e88b/1_Detalle_2_Serie_Lumpen_toro_Amillategui.JPG",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/b4c1732b-9dfe-4801-adfe-b8ed1dea2ca4/1_Detalle_1_Serie_Lumpen_toro_Amillategui.JPG.JPG",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/785b707a-d6c2-46b0-ac6d-0bff97ea143e/1_Obra_Serie_Lumpen_toro_Amillategui.JPG"
-      ],
-      "featured": true
+      ]
     },
     {
       "id": "6902a45a5d728f36d2dc1ed4",
@@ -5734,11 +5710,7 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/01fe42f2-70ed-43b9-9e71-6a057b398eb4/PortadasALEX+SITIO.016.jpeg",
       "imageSquare": null,
-      "imageDetails": [
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/encuentro-alex-lazard/sala.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/encuentro-alex-lazard/detalle1.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/encuentro-alex-lazard/detalle2.png"
-      ],
+      "imageDetails": [],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/01fe42f2-70ed-43b9-9e71-6a057b398eb4/PortadasALEX+SITIO.016.jpeg"
       ],
@@ -5764,12 +5736,7 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/4f85dde0-5e47-46df-a66a-6fbf56c632d2/PortadasALEX+SITIO.017.jpeg",
       "imageSquare": null,
-      "imageDetails": [
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/buscador-alex-lazard/sala.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/buscador-alex-lazard/detalle1.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/buscador-alex-lazard/detalle2.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/buscador-alex-lazard/detalle3.png"
-      ],
+      "imageDetails": [],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/4f85dde0-5e47-46df-a66a-6fbf56c632d2/PortadasALEX+SITIO.017.jpeg"
       ],
@@ -5795,12 +5762,7 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/edcee69b-f6a1-459e-ac66-7128cd08936c/PortadasALEX+SITIO.018.jpeg",
       "imageSquare": null,
-      "imageDetails": [
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/la-sombra-de-la-sombra-alex-lazard/sala.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/la-sombra-de-la-sombra-alex-lazard/detalle1.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/la-sombra-de-la-sombra-alex-lazard/detalle2.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/la-sombra-de-la-sombra-alex-lazard/detalle3.png"
-      ],
+      "imageDetails": [],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/edcee69b-f6a1-459e-ac66-7128cd08936c/PortadasALEX+SITIO.018.jpeg"
       ],
@@ -5852,11 +5814,7 @@
       ],
       "imageMain": "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/f78023a2-bf3f-47e9-93b5-51b4c6933132/Screenshot+2025-11-20+at+16.47.52.png",
       "imageSquare": null,
-      "imageDetails": [
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/buena-suerte-alex-lazard/sala.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/buena-suerte-alex-lazard/detalle1.png",
-        "https://pbbmgpuspemvvaii.public.blob.vercel-storage.com/buena-suerte-alex-lazard/detalle2.png"
-      ],
+      "imageDetails": [],
       "allImages": [
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/f78023a2-bf3f-47e9-93b5-51b4c6933132/Screenshot+2025-11-20+at+16.47.52.png"
       ],
@@ -5990,8 +5948,7 @@
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/3b81a915-3235-4a38-adb1-0f458d572ffb/Bruno+1.png",
         "https://images.squarespace-cdn.com/content/v1/649b25e987e97d38e868cd28/5707da39-d021-44e1-9c37-6922641eef0e/Buno+Berthier.jpeg"
       ],
-      "titleEn": "Woman with Dove",
-      "featured": true
+      "titleEn": "Woman with Dove"
     },
     {
       "id": "69b9ebe4a4f7671b39874e74",
