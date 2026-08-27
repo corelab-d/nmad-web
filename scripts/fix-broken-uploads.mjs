@@ -11,7 +11,7 @@ const client = new S3Client({
 
 const R2_BASE = 'https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace'
 const R2_BUCKET = 'nmad-media'
-const DROPBOX = `${process.env.HOME}/Dropbox/01_OJK/01_Documentos/DBDocs/04_NMAD/Sitio Web/imagenes`
+const DROPBOX = process.env.IMAGES_DIR || `${process.env.HOME}/DEV/nmad-imagenes`
 
 // Step 1: List what's in R2
 let ContinuationToken

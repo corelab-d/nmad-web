@@ -22,7 +22,7 @@ const client = new S3Client({
   },
 })
 
-const IMAGES_DIR = process.env.IMAGES_DIR || `${process.env.HOME}/Dropbox/01_OJK/01_Documentos/DBDocs/04_NMAD/Sitio Web/imagenes`
+const IMAGES_DIR = process.env.IMAGES_DIR || `${process.env.HOME}/DEV/nmad-imagenes`
 
 const files = readdirSync(IMAGES_DIR).filter(f => {
   const ext = extname(f).toLowerCase()

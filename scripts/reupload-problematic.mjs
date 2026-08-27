@@ -8,7 +8,7 @@ const R2_ACCESS_KEY_ID = process.env.R2_ACCESS_KEY_ID
 const R2_SECRET_ACCESS_KEY = process.env.R2_SECRET_ACCESS_KEY
 const R2_BUCKET = 'nmad-media'
 const R2_BASE = 'https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace'
-const DROPBOX_DIR = `${process.env.HOME}/Dropbox/01_OJK/01_Documentos/DBDocs/04_NMAD/Sitio Web/imagenes`
+const DROPBOX_DIR = process.env.IMAGES_DIR || `${process.env.HOME}/DEV/nmad-imagenes`
 
 const client = new S3Client({
   region: 'auto',

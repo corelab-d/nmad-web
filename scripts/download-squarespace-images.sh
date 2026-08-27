@@ -1,7 +1,7 @@
 #!/bin/bash
 # Descarga todas las imágenes de Squarespace organizadas por artista
 
-DEST="$HOME/Dropbox/01_OJK/01_Documentos/DBDocs/04_NMAD/Sitio Web/imagenes"
+DEST="$HOME/DEV/nmad-imagenes"
 URLS_FILE="$(dirname "$0")/../data/squarespace-urls.txt"
 
 mkdir -p "$DEST"
