@@ -825,7 +825,7 @@
       "artistSlug": "jose-barbosa",
       "price": 8000,
       "available": false,
-      "visible": true,
+      "visible": false,
       "technique": "Aguafuerte y aguatinta",
       "dimensions": "50cm x 33cm",
       "year": "",
