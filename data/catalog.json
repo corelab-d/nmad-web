@@ -125,7 +125,7 @@
       "artistSlug": "tomas-gomez-robledo",
       "price": 34000,
       "available": false,
-      "visible": true,
+      "visible": false,
       "technique": "Óleo sobre tela",
       "dimensions": "80cm x 110cm",
       "year": "",
