@@ -6235,7 +6235,7 @@
       "artistSlug": "maria-portilla",
       "price": 14600,
       "available": false,
-      "visible": true,
+      "visible": false,
       "technique": "Textil",
       "dimensions": "60 × 44 cm",
       "year": "",
