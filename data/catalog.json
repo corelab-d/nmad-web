@@ -1317,7 +1317,7 @@
       "artistSlug": "toro-amillategui",
       "price": 80000,
       "available": true,
-      "visible": true,
+      "visible": false,
       "technique": "- Óleo sobre tela",
       "dimensions": "",
       "year": "",
@@ -1339,7 +1339,7 @@
         "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-no-15-serie-nomada-detalle-3.png",
         "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-no-15-serie-nomada.png"
       ],
-      "featured": true,
+      "featured": false,
       "featuredImage": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-no-15-serie-nomada.png"
     },
     {
