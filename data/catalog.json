@@ -4632,7 +4632,7 @@
       "artistSlug": "lucia-hagerman",
       "price": 20000,
       "available": false,
-      "visible": true,
+      "visible": false,
       "technique": "Mixta sobre tela",
       "dimensions": "60 x 60 cm",
       "year": "",
