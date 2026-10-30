@@ -1063,7 +1063,7 @@
       "artistSlug": "juanpablo-junto",
       "price": 40000,
       "available": true,
-      "visible": true,
+      "visible": false,
       "technique": "- Mixta sobre tela",
       "dimensions": "",
       "year": "",
