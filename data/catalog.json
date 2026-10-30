@@ -4787,7 +4787,7 @@
       "artistSlug": "paula-bernard",
       "price": 80000,
       "available": false,
-      "visible": true,
+      "visible": false,
       "technique": "Encausto sobre tela",
       "dimensions": "200 x 150 cm",
       "year": "",
