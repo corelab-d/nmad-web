@@ -1,6 +1,42 @@
 {
   "artworks": [
     {
+      "id": "795a5906536649cbaeb4a0ac",
+      "title": "Tigre",
+      "slug": "tigre-toro-amillategui",
+      "artist": "Toro Amillategui",
+      "artistSlug": "toro-amillategui",
+      "price": 82000,
+      "available": true,
+      "visible": true,
+      "technique": "Óleo sobre tela",
+      "dimensions": "170 x 200 cm",
+      "year": "",
+      "edition": "Original",
+      "framing": "Sin Marco",
+      "collections": [
+        "todas"
+      ],
+      "imageMain": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-tigre.jpg",
+      "imageSquare": null,
+      "imageDetails": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-tigre-detalle-1.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-tigre-detalle-2.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-tigre-detalle-3.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-tigre-detalle-4.jpg"
+      ],
+      "allImages": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-tigre.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-tigre-detalle-1.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-tigre-detalle-2.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-tigre-detalle-3.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-tigre-detalle-4.jpg"
+      ],
+      "featured": false,
+      "featuredImage": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-tigre.jpg",
+      "titleEn": "Tiger"
+    },
+    {
       "id": "650cd3dbd069d8064f58f436",
       "title": "Humano con perro",
       "slug": "humano-con-perro-mariau-urrusti",
