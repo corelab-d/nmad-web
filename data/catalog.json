@@ -1910,7 +1910,7 @@
       "artistSlug": "jonas-avedano-y-juanpablo-junto",
       "price": 45000,
       "available": true,
-      "visible": true,
+      "visible": false,
       "technique": "- Mixta dobre superficie recuperada",
       "dimensions": "",
       "year": "",
