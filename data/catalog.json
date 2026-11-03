@@ -1,6 +1,42 @@
 {
   "artworks": [
     {
+      "id": "247d197651c241ecb8f321cf",
+      "title": "Pescado y pera",
+      "slug": "pescado-y-pera-toro-amillategui",
+      "artist": "Toro Amillategui",
+      "artistSlug": "toro-amillategui",
+      "price": 12000,
+      "available": true,
+      "visible": true,
+      "technique": "Óleo sobre tela",
+      "dimensions": "60 x 50 cm",
+      "year": "",
+      "edition": "Original",
+      "framing": "Sin Marco",
+      "collections": [
+        "todas"
+      ],
+      "imageMain": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-pescado-y-pera.jpg",
+      "imageSquare": null,
+      "imageDetails": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-pescado-y-pera-detalle-1.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-pescado-y-pera-detalle-2.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-pescado-y-pera-detalle-3.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-pescado-y-pera-detalle-4.jpg"
+      ],
+      "allImages": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-pescado-y-pera.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-pescado-y-pera-detalle-1.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-pescado-y-pera-detalle-2.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-pescado-y-pera-detalle-3.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-pescado-y-pera-detalle-4.jpg"
+      ],
+      "featured": false,
+      "featuredImage": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/toro-amillategui-pescado-y-pera.jpg",
+      "titleEn": "Fish and Pear"
+    },
+    {
       "id": "ebc39261a32347aaa4f60e10",
       "title": "Cristo Brut",
       "slug": "cristo-brut-toro-amillategui",
