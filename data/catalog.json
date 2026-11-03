@@ -726,7 +726,7 @@
       "artistSlug": "francisca-rodillo-de-vicente",
       "price": 32000,
       "available": true,
-      "visible": true,
+      "visible": false,
       "technique": "Acrílico sobre tela",
       "dimensions": "120cm x 140cm",
       "year": "",
