@@ -125,12 +125,6 @@ export default async function ObraPage({ params }: { params: Promise<{ slug: str
               ) : (
                 <p className="text-[#888] text-sm">{priceLabel}</p>
               )}
-              {artwork.available && (
-                <p className="text-[10px] tracking-widest uppercase text-[#1a1a1a] mt-2 flex items-center gap-2">
-                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#1a1a1a]" />
-                  {t('available')}
-                </p>
-              )}
             </div>
 
             <ConsultarBtn obra={artwork.title} artista={artwork.artist} locale={locale} />
