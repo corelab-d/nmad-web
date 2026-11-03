@@ -1,6 +1,42 @@
 {
   "artworks": [
     {
+      "id": "825fcfceea7d41ebbcfc0934",
+      "title": "Joshijo",
+      "slug": "joshijo-ramon-penaloza",
+      "artist": "Ramón Peñaloza",
+      "artistSlug": "ramon-penaloza",
+      "price": 35000,
+      "available": true,
+      "visible": true,
+      "technique": "Óleo sobre tela",
+      "dimensions": "100 x 130 cm",
+      "year": "",
+      "edition": "Original",
+      "framing": "Sin Marco",
+      "collections": [
+        "todas"
+      ],
+      "imageMain": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-joshijo.jpg",
+      "imageSquare": null,
+      "imageDetails": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-joshijo-detalle-1.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-joshijo-detalle-2.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-joshijo-detalle-3.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-joshijo-detalle-4.jpg"
+      ],
+      "allImages": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-joshijo.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-joshijo-detalle-1.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-joshijo-detalle-2.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-joshijo-detalle-3.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-joshijo-detalle-4.jpg"
+      ],
+      "featured": false,
+      "featuredImage": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-joshijo.jpg",
+      "titleEn": "Joshijo"
+    },
+    {
       "id": "f21d31f96ddd42799c5df912",
       "title": "Vida",
       "slug": "vida-verity-alice",
