@@ -853,17 +853,19 @@
       "collections": [
         "vol-1"
       ],
-      "imageMain": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/iker-grandio-coloso-iii-1-full.png",
+      "imageMain": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/iker-grandio-coloso-iii-portada.jpg",
       "imageSquare": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/iker-grandio-coloso-iii-sq.png",
       "imageDetails": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/iker-grandio-coloso-iii-1-full.png",
         "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/iker-grandio-coloso-iii-detalle-1.png"
       ],
       "allImages": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/iker-grandio-coloso-iii-portada.jpg",
         "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/iker-grandio-coloso-iii-1-full.png",
-        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/iker-grandio-coloso-iii-detalle-1.png",
-        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/iker-grandio-coloso-iii-sq.png"
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/iker-grandio-coloso-iii-detalle-1.png"
       ],
-      "titleEn": "Colossus III"
+      "titleEn": "Colossus III",
+      "featuredImage": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/iker-grandio-coloso-iii-portada.jpg"
     },
     {
       "id": "652f06b38c27354c672b971e",
