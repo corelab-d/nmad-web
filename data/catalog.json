@@ -1445,16 +1445,21 @@
       "collections": [
         "vol-1"
       ],
-      "imageMain": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-pitaya-y-guayaba.jpeg",
+      "imageMain": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-pitaya-y-guayaba-portada.jpg",
       "imageSquare": null,
       "imageDetails": [
-        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-pitaya-y-guayaba-detalle-1.jpeg"
-      ],
-      "allImages": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-pitaya-y-guayaba-montaje.jpg",
         "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-pitaya-y-guayaba.jpeg",
         "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-pitaya-y-guayaba-detalle-1.jpeg"
       ],
-      "titleEn": "Pitaya and Guava"
+      "allImages": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-pitaya-y-guayaba-portada.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-pitaya-y-guayaba-montaje.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-pitaya-y-guayaba.jpeg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-pitaya-y-guayaba-detalle-1.jpeg"
+      ],
+      "titleEn": "Pitaya and Guava",
+      "featuredImage": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/ramon-penaloza-pitaya-y-guayaba-portada.jpg"
     },
     {
       "id": "65c0135f5bb8c221cb7bcab1",
