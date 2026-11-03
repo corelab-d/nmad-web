@@ -1,6 +1,42 @@
 {
   "artworks": [
     {
+      "id": "f21d31f96ddd42799c5df912",
+      "title": "Vida",
+      "slug": "vida-verity-alice",
+      "artist": "Verity Alice",
+      "artistSlug": "verity-alice",
+      "price": 12000,
+      "available": true,
+      "visible": true,
+      "technique": "Barra de óleo y lápiz sobre papel",
+      "dimensions": "55 x 45 cm",
+      "year": "",
+      "edition": "Original",
+      "framing": "Sin Marco",
+      "collections": [
+        "todas"
+      ],
+      "imageMain": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/verity-alice-vida.jpg",
+      "imageSquare": null,
+      "imageDetails": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/verity-alice-vida-detalle-1.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/verity-alice-vida-detalle-2.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/verity-alice-vida-detalle-3.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/verity-alice-vida-detalle-4.jpg"
+      ],
+      "allImages": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/verity-alice-vida.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/verity-alice-vida-detalle-1.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/verity-alice-vida-detalle-2.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/verity-alice-vida-detalle-3.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/verity-alice-vida-detalle-4.jpg"
+      ],
+      "featured": false,
+      "featuredImage": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/verity-alice-vida.jpg",
+      "titleEn": "Life"
+    },
+    {
       "id": "9fed56f7a5174a21841d9158",
       "title": "Bahía sin Luz",
       "slug": "bahia-sin-luz-patricio-ohea",
