@@ -104,12 +104,6 @@ export default async function ObraPage({ params }: { params: Promise<{ slug: str
                   <span className="text-sm">{artwork.year}</span>
                 </div>
               )}
-              {artwork.edition && (
-                <div className="flex justify-between py-3">
-                  <span className="text-[10px] tracking-widest uppercase text-[#888]">{locale === 'en' ? 'Work' : 'Obra'}</span>
-                  <span className="text-sm">{artwork.edition}</span>
-                </div>
-              )}
               {artwork.framing && artwork.framing !== 'Sin Marco' && (
                 <div className="flex justify-between py-3">
                   <span className="text-[10px] tracking-widest uppercase text-[#888]">{t('framing')}</span>
