@@ -673,7 +673,7 @@
       "technique": "Óleo y pigmento sobre tela",
       "dimensions": "90cm x 80cm (4 páneles de 40cm x 45cm)",
       "year": "",
-      "edition": "Técnica : Óleo y pigmento sobre tela",
+      "edition": "Original",
       "framing": "Sin Marco Más sobre el enmarcado y el montaje",
       "collections": [
         "vol-1"
@@ -816,7 +816,7 @@
       "technique": "Óleo sobre tela",
       "dimensions": "30cm x 20cm",
       "year": "",
-      "edition": "Técnica : Óleo sobre tela",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-1"
@@ -848,7 +848,7 @@
       "technique": "Mixta sobre papel",
       "dimensions": "26cm x 22cm",
       "year": "",
-      "edition": "Técnica : Mixta sobre papel",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-1"
@@ -877,7 +877,7 @@
       "technique": "Acrílico sobre madera",
       "dimensions": "80cm x 60cm",
       "year": "",
-      "edition": "Técnica : Acrílico sobre madera",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-1"
@@ -906,7 +906,7 @@
       "technique": "Acrílico sobre tela",
       "dimensions": "140cm x 150cm",
       "year": "",
-      "edition": "Estudio sobre El Bacanal de los Andrios Técnica : Acrílico sobre tela",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-1"
@@ -935,7 +935,7 @@
       "technique": "Mixta sobre tela",
       "dimensions": "120cm x 60cm",
       "year": "",
-      "edition": "Técnica : Mixta sobre tela",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-1"
@@ -1028,7 +1028,7 @@
       "technique": "Acrílico y papel maché sobre madera",
       "dimensions": "70cm x 30cm x 25cm",
       "year": "",
-      "edition": "Técnica : Acrílico y papel maché sobre madera",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-1"
@@ -1059,7 +1059,7 @@
       "technique": "Mixta sobre tela",
       "dimensions": "190cm x 280cm",
       "year": "",
-      "edition": "Técnica : Mixta sobre tela",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-1"
@@ -1206,10 +1206,10 @@
       "price": 27000,
       "available": true,
       "visible": true,
-      "technique": "- Óleo sobre madera",
-      "dimensions": "",
+      "technique": "Óleo sobre madera",
+      "dimensions": "120 x 90 cm aprox",
       "year": "",
-      "edition": "- Óleo sobre madera - 120cm x 90cm aprox",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-1"
@@ -1237,10 +1237,10 @@
       "price": 27000,
       "available": true,
       "visible": true,
-      "technique": "- Mixta sobre tela",
-      "dimensions": "",
+      "technique": "Mixta sobre tela",
+      "dimensions": "70 x 80 cm",
       "year": "",
-      "edition": "- Mixta sobre tela - 70cm x 80cm - Original - Marco madera",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-1"
@@ -1270,10 +1270,10 @@
       "price": 52000,
       "available": true,
       "visible": true,
-      "technique": "- Acrílico sobre tela",
-      "dimensions": "",
+      "technique": "Acrílico sobre tela",
+      "dimensions": "200 x 160 cm",
       "year": "",
-      "edition": "- Acrílico sobre tela - 200cm x 160cm - Original",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-1"
@@ -1441,10 +1441,10 @@
       "price": 6000,
       "available": true,
       "visible": true,
-      "technique": "- Óleo sobre tela",
-      "dimensions": "",
+      "technique": "Óleo sobre tela",
+      "dimensions": "30 x 40 cm",
       "year": "",
-      "edition": "- Óleo sobre tela - 30cm x 40cm - Original",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-1"
@@ -2019,7 +2019,7 @@
       "technique": "Mixta sobre linóleo",
       "dimensions": "195 x 200 cm",
       "year": "",
-      "edition": "Mixta sobre linóleo 195 x 200 cm",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "destacado"
@@ -2134,7 +2134,7 @@
       "technique": "Óleo y polvo de mármol sobre mesa",
       "dimensions": "94 x 152 cm",
       "year": "",
-      "edition": "Óleo y polvo de mármol sobre mesa 94 x 152 cm",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-2"
@@ -2227,7 +2227,7 @@
       "technique": "Bronce",
       "dimensions": "5 x 5 x 5 cm",
       "year": "",
-      "edition": "Bronce 5 x 5 x 5 cm",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-2"
@@ -2251,7 +2251,7 @@
       "technique": "Bronce",
       "dimensions": "25 x 9.5 x 8.55 cm",
       "year": "",
-      "edition": "Bronce 25 x 9",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-2"
@@ -2460,7 +2460,7 @@
       "technique": "Óleo sobre tela",
       "dimensions": "120 x 140 cm",
       "year": "",
-      "edition": "Óleo sobre tela 120 x 140 cm",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-2"
@@ -2489,7 +2489,7 @@
       "technique": "Mixta sobre papel",
       "dimensions": "26 x 22 cm",
       "year": "",
-      "edition": "Mixta sobre papel 26 x 22 cm",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-2"
@@ -2576,7 +2576,7 @@
       "technique": "Óleo sobre madera",
       "dimensions": "40 x 62.5 cm",
       "year": "",
-      "edition": "Óleo sobre madera 40 x 62",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-2"
@@ -2608,7 +2608,7 @@
       "technique": "Carboncillo sobre papel",
       "dimensions": "50 x 70 cm",
       "year": "",
-      "edition": "Carboncillo sobre papel 50 x 70 cm",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-2"
@@ -2846,7 +2846,7 @@
       "technique": "Óleo sobre linóleo",
       "dimensions": "100 x 100 cm",
       "year": "",
-      "edition": "Óleo sobre linóleo 100 x 100 cm",
+      "edition": "Original",
       "framing": "Sin Marco",
       "collections": [
         "vol-2"
