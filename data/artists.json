@@ -12,6 +12,12 @@
     "bioEn": "Born in Mexico City in 1987 into an artistic family. He approaches painting as a tool for self-exploration and the expression of his vision of freedom. He has lived intermittently in European countries, developing a style strongly influenced by French Impressionism and German Expressionism."
   },
   {
+    "slug": "carolina-tangassi",
+    "name": "Carolina Tangassi",
+    "bio": "Carolina Tangassi nació en la Ciudad de México en 1982. Es una artista plástica cuya obra explora el movimiento, la figura humana y la abstracción desde la espontaneidad. Se formó en la Escuela Nacional de Artes Plásticas de la UNAM y en el taller de Gilberto Aceves Navarro. Ha participado en más de cincuenta exposiciones en México y el extranjero.",
+    "bioEn": "Carolina Tangassi was born in Mexico City in 1982. She is a visual artist whose work explores movement, the human figure, and abstraction through spontaneity. She trained at the Escuela Nacional de Artes Plásticas of UNAM and in the workshop of Gilberto Aceves Navarro. She has participated in more than fifty exhibitions in Mexico and abroad."
+  },
+  {
     "slug": "cesar-escudero",
     "name": "César Escudero",
     "bio": "Artista establecido en la Ciudad de México que trabaja en grandes formatos, abarcando desde el expresionismo abstracto hasta el figurativo, empleando pinceladas gruesas y texturas. Defensor de la salud mental, transmite emociones ocultas a través de su obra. Dirige la galería Anomalía México en Roma Norte, enfocada en artistas mexicanos emergentes.",
@@ -94,11 +100,5 @@
     "name": "WOW",
     "bio": "Movimiento artístico colectivo que enfatiza la creatividad colectiva por encima del ego individual, inspirándose en la infancia, el juego y la libertad con la que un niño toma los crayones para capturar su realidad.",
     "bioEn": "A collective artistic movement that emphasizes collective creativity over individual ego, drawing inspiration from childhood, play, and the freedom with which a child picks up crayons to capture their reality."
-  },
-  {
-    "slug": "carolina-tangassi",
-    "name": "Carolina Tangassi",
-    "bio": "Carolina Tangassi nació en la Ciudad de México en 1982. Es una artista plástica cuya obra explora el movimiento, la figura humana y la abstracción desde la espontaneidad. Se formó en la Escuela Nacional de Artes Plásticas de la UNAM y en el taller de Gilberto Aceves Navarro. Ha participado en más de cincuenta exposiciones en México y el extranjero.",
-    "bioEn": "Carolina Tangassi was born in Mexico City in 1982. She is a visual artist whose work explores movement, the human figure, and abstraction through spontaneity. She trained at the Escuela Nacional de Artes Plásticas of UNAM and in the workshop of Gilberto Aceves Navarro. She has participated in more than fifty exhibitions in Mexico and abroad."
   }
 ]
