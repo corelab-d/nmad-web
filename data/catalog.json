@@ -1299,14 +1299,15 @@
       "imageMain": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/juan-vazquez-abstracto-en-grises-portada.jpg",
       "imageSquare": null,
       "imageDetails": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/juan-vazquez-abstracto-en-grises.jpg",
         "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/juan-vazquez-abstracto-en-grises-detalle-1.jpg",
         "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/juan-vazquez-abstracto-en-grises-detalle-2.png"
       ],
       "allImages": [
         "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/juan-vazquez-abstracto-en-grises-portada.jpg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/juan-vazquez-abstracto-en-grises.jpg",
         "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/juan-vazquez-abstracto-en-grises-detalle-1.jpg",
-        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/juan-vazquez-abstracto-en-grises-detalle-2.png",
-        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/juan-vazquez-abstracto-en-grises.jpg"
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/juan-vazquez-abstracto-en-grises-detalle-2.png"
       ],
       "titleEn": "Abstract in Greys"
     },
