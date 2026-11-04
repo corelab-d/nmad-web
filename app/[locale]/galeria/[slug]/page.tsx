@@ -11,6 +11,7 @@ export async function generateStaticParams() {
   return getAllArtworks().map((a) => ({ slug: a.slug }))
 }
 
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string; locale: string }> }) {
   const { slug } = await params
   const artwork = getArtworkBySlug(slug)
