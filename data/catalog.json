@@ -3442,9 +3442,18 @@
       ],
       "imageMain": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/alex-lazard-los-suenos.jpeg",
       "imageSquare": null,
-      "imageDetails": [],
+      "imageDetails": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/alex-lazard-los-suenos-montaje.webp",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/alex-lazard-los-suenos-detalle-2.webp",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/alex-lazard-los-suenos-detalle-3.webp",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/alex-lazard-los-suenos-detalle-4.webp"
+      ],
       "allImages": [
-        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/alex-lazard-los-suenos.jpeg"
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/alex-lazard-los-suenos.jpeg",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/alex-lazard-los-suenos-montaje.webp",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/alex-lazard-los-suenos-detalle-2.webp",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/alex-lazard-los-suenos-detalle-3.webp",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/alex-lazard-los-suenos-detalle-4.webp"
       ],
       "titleEn": "Dreams"
     },
