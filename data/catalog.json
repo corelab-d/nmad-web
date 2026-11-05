@@ -2286,9 +2286,18 @@
       ],
       "imageMain": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/carolina-tangassi-lucy-4.png",
       "imageSquare": null,
-      "imageDetails": [],
+      "imageDetails": [
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/carolina-tangassi-lucy-4-montaje.webp",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/carolina-tangassi-lucy-4-detalle-2.webp",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/carolina-tangassi-lucy-4-detalle-3.webp",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/carolina-tangassi-lucy-4-detalle-4.webp"
+      ],
       "allImages": [
-        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/carolina-tangassi-lucy-4.png"
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/carolina-tangassi-lucy-4.png",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/carolina-tangassi-lucy-4-montaje.webp",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/carolina-tangassi-lucy-4-detalle-2.webp",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/carolina-tangassi-lucy-4-detalle-3.webp",
+        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/carolina-tangassi-lucy-4-detalle-4.webp"
       ]
     },
     {
