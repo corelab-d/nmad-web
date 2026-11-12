@@ -6165,7 +6165,7 @@
       "artistSlug": "alex-lazard",
       "price": 48000,
       "available": false,
-      "visible": true,
+      "visible": false,
       "technique": "Óleo sobre madera",
       "dimensions": "122 x 122 cm",
       "year": "",
