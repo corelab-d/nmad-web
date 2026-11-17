@@ -49,7 +49,7 @@ export default async function ArtistaPage({ params }: { params: Promise<{ slug: 
           {artworks.length === 0 ? (
             <p className="text-[#888]">{noWorksLabel}</p>
           ) : (
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-5 gap-y-10">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-x-5 gap-y-10">
               {artworks.map((artwork) => (
                 <ArtworkCard key={artwork.id} artwork={artwork} />
               ))}

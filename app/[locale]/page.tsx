@@ -67,7 +67,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
       {/* Full catalog */}
       <section className="max-w-6xl mx-auto px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-x-5 gap-y-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10">
           {artworks.map((artwork) => (
             <ArtworkCard key={artwork.id} artwork={artwork} />
           ))}
