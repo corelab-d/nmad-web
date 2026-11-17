@@ -1071,36 +1071,6 @@
       "featuredImage": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/juan-bautista-climent-el-robo-de-una-chispa-encendida-portada.jpg"
     },
     {
-      "id": "652f10b2cf9d5400e859a981",
-      "title": "Ocelote / Más humano que yo",
-      "slug": "ocelote-mas-humano-que-yo-cesar-escudero",
-      "artist": "César Escudero",
-      "artistSlug": "cesar-escudero",
-      "price": 180000,
-      "available": true,
-      "visible": true,
-      "technique": "Mixta sobre tela",
-      "dimensions": "190cm x 280cm",
-      "year": "",
-      "edition": "Original",
-      "framing": "Sin Marco",
-      "collections": [
-        "vol-1"
-      ],
-      "imageMain": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/cesar-escudero-ocelote-mas-humano-que-yo-2-detalle-1.jpeg",
-      "imageSquare": "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/cesar-escudero-ocelote-mas-humano-que-yo-sq.jpeg",
-      "imageDetails": [
-        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/cesar-escudero-ocelote-mas-humano-que-yo-detalle-1.jpeg",
-        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/cesar-escudero-ocelote-mas-humano-que-yo-detalle-2.jpeg"
-      ],
-      "allImages": [
-        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/cesar-escudero-ocelote-mas-humano-que-yo-2-detalle-1.jpeg",
-        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/cesar-escudero-ocelote-mas-humano-que-yo-detalle-1.jpeg",
-        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/cesar-escudero-ocelote-mas-humano-que-yo-detalle-2.jpeg",
-        "https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace/cesar-escudero-ocelote-mas-humano-que-yo-sq.jpeg"
-      ]
-    },
-    {
       "id": "652f11958e9ce27847e12abe",
       "title": "El Danzante",
       "slug": "el-danzante-cesar-escudero",
