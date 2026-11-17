@@ -53,17 +53,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </div>
       </section>
 
-      {/* Collections nav strip */}
-      <section className="border-b border-[#e8e8e8] py-5 px-6 overflow-x-auto">
-        <div className="max-w-6xl mx-auto flex gap-6 justify-center flex-wrap">
-          {COLLECTIONS.map((c) => (
-            <Link key={c.slug} href={`/galeria?coleccion=${c.slug}`}
-              className="text-[10px] tracking-[0.2em] uppercase text-[#888] hover:text-[#1a1a1a] transition-colors whitespace-nowrap">
-              {c.label}
-            </Link>
-          ))}
-        </div>
-      </section>
 
       {/* Full catalog */}
       <section className="max-w-6xl mx-auto px-6 py-12">
