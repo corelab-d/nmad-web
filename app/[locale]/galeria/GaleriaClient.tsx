@@ -1,6 +1,5 @@
 'use client'
-import { useState, useMemo, useEffect } from 'react'
-import { useSearchParams } from 'next/navigation'
+import { useState, useMemo } from 'react'
 import { Artwork, Artist } from '@/lib/catalog'
 import ArtworkCard from '@/components/ArtworkCard'
 import { useTranslations } from 'next-intl'
@@ -16,21 +15,13 @@ export default function GaleriaClient({ artworks, artists, collections, locale }
   const t = useTranslations('gallery')
   const searchParams = useSearchParams()
   const [filterArtist, setFilterArtist] = useState<string>('all')
-  const [filterCollection, setFilterCollection] = useState<string>('all')
-  const [artistsOpen, setArtistsOpen] = useState(false)
-
-  useEffect(() => {
-    const col = searchParams.get('coleccion')
-    if (col) setFilterCollection(col)
-  }, [searchParams])
 
   const filtered = useMemo(() => {
     return artworks.filter((a) => {
       if (filterArtist !== 'all' && a.artistSlug !== filterArtist) return false
-      if (filterCollection !== 'all' && !a.collections.includes(filterCollection)) return false
       return true
     })
-  }, [artworks, filterArtist, filterCollection])
+  }, [artworks, filterArtist])
 
   const pill = (active: boolean) =>
     `text-[10px] tracking-[0.15em] uppercase px-4 py-2 border transition-colors cursor-pointer whitespace-nowrap ${
@@ -40,7 +31,6 @@ export default function GaleriaClient({ artworks, artists, collections, locale }
     }`
 
   const allLabel = locale === 'en' ? 'All' : 'Todas'
-  const allArtistsLabel = locale === 'en' ? 'All artists' : 'Todos'
   const noResultsLabel = locale === 'en' ? 'No works match these filters.' : 'No hay obras con estos filtros.'
   const worksLabel = locale === 'en' ? 'works' : 'obras'
 
@@ -51,47 +41,16 @@ export default function GaleriaClient({ artworks, artists, collections, locale }
         <p className="text-[#888] text-xs mt-1">{filtered.length} {worksLabel}</p>
       </div>
 
-      <div className="space-y-4 mb-10 pb-8 border-b border-[#e8e8e8]">
-        {/* Collections — always visible */}
+      <div className="mb-10 pb-8 border-b border-[#e8e8e8]">
         <div className="flex flex-wrap gap-2">
-          <button onClick={() => { setFilterCollection('all'); setFilterArtist('all') }} className={pill(filterCollection === 'all' && filterArtist === 'all')}>
+          <button onClick={() => setFilterArtist('all')} className={pill(filterArtist === 'all')}>
             {allLabel}
           </button>
-          {collections.map((c) => (
-            <button key={c.slug} onClick={() => { setFilterCollection(c.slug); setFilterArtist('all') }} className={pill(filterCollection === c.slug)}>
-              {c.label}
+          {artists.map((a) => (
+            <button key={a.slug} onClick={() => setFilterArtist(a.slug)} className={pill(filterArtist === a.slug)}>
+              {a.name}
             </button>
           ))}
-        </div>
-
-        {/* Artists toggle */}
-        <div>
-          <button
-            onClick={() => setArtistsOpen((v) => !v)}
-            className={`text-[10px] tracking-[0.15em] uppercase px-4 py-2 border transition-colors cursor-pointer whitespace-nowrap flex items-center gap-2 ${
-              filterArtist !== 'all'
-                ? 'border-[#1a1a1a] bg-[#1a1a1a] text-[#ffffff]'
-                : 'border-[#e8e8e8] text-[#888] hover:border-[#1a1a1a] hover:text-[#1a1a1a]'
-            }`}
-          >
-            {filterArtist !== 'all'
-              ? artists.find((a) => a.slug === filterArtist)?.name ?? t('artists')
-              : t('artists')}
-            <span className="opacity-50">{artistsOpen ? '−' : '+'}</span>
-          </button>
-
-          {artistsOpen && (
-            <div className="flex flex-wrap gap-2 mt-3">
-              <button onClick={() => { setFilterArtist('all'); setFilterCollection('all'); setArtistsOpen(false) }} className={pill(filterArtist === 'all')}>
-                {allArtistsLabel}
-              </button>
-              {artists.map((a) => (
-                <button key={a.slug} onClick={() => { setFilterArtist(a.slug); setFilterCollection('all'); setArtistsOpen(false) }} className={pill(filterArtist === a.slug)}>
-                  {a.name}
-                </button>
-              ))}
-            </div>
-          )}
         </div>
       </div>
 
