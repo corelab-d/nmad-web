@@ -12,8 +12,7 @@ interface Props {
 
 export default function GaleriaClient({ artworks, artists, locale }: Props) {
   const t = useTranslations('gallery')
-  const searchParams = useSearchParams()
-  const [filterArtist, setFilterArtist] = useState<string>('all')
+const [filterArtist, setFilterArtist] = useState<string>('all')
 
   const filtered = useMemo(() => {
     return artworks.filter((a) => {
