@@ -2,7 +2,6 @@
 import Image from 'next/image'
 import { usePathname, useRouter, Link } from '@/i18n/navigation'
 import { useState, useEffect } from 'react'
-import { COLLECTIONS } from '@/lib/catalog'
 import ShowroomModal from './ShowroomModal'
 import { useLocale, useTranslations } from 'next-intl'
 
@@ -12,7 +11,6 @@ export default function Nav() {
   const pathname = usePathname()
   const router = useRouter()
   const [menuOpen, setMenuOpen] = useState(false)
-  const [galeriaOpen, setGaleriaOpen] = useState(false)
   const [showroomOpen, setShowroomOpen] = useState(false)
   const [hidden, setHidden] = useState(false)
 
@@ -53,35 +51,12 @@ export default function Nav() {
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-10">
 
-            {/* Galería with dropdown */}
-            <div className="relative group"
-              onMouseEnter={() => setGaleriaOpen(true)}
-              onMouseLeave={() => setGaleriaOpen(false)}
+            <Link
+              href="/galeria"
+              className={`text-xs tracking-[0.15em] uppercase transition-colors ${pathname?.startsWith('/galeria') ? 'text-[#1a1a1a]' : 'text-[#888] hover:text-[#1a1a1a]'}`}
             >
-              <Link
-                href="/galeria"
-                className={`text-xs tracking-[0.15em] uppercase transition-colors ${pathname?.startsWith('/galeria') ? 'text-[#1a1a1a]' : 'text-[#888] hover:text-[#1a1a1a]'}`}
-              >
-                {t('gallery')}
-              </Link>
-
-              {galeriaOpen && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 pt-3 z-50">
-                  <div className="bg-[#ffffff] border border-[#e8e8e8] shadow-sm min-w-[160px]">
-                    {COLLECTIONS.map((c) => (
-                      <Link
-                        key={c.slug}
-                        href={`/galeria?coleccion=${c.slug}`}
-                        className="block px-5 py-2.5 text-xs tracking-widest uppercase text-[#888] hover:text-[#1a1a1a] hover:bg-[#f5f5f5] transition-colors"
-                        onClick={() => setGaleriaOpen(false)}
-                      >
-                        {c.label}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
+              {t('gallery')}
+            </Link>
 
             <Link href="/artistas"
               className={`text-xs tracking-[0.15em] uppercase transition-colors ${pathname?.startsWith('/artistas') ? 'text-[#1a1a1a]' : 'text-[#888] hover:text-[#1a1a1a]'}`}>
@@ -125,12 +100,6 @@ export default function Nav() {
               className="block px-6 py-4 text-xs tracking-widest uppercase border-b border-[#e8e8e8] text-[#888] hover:text-[#1a1a1a]">
               {t('gallery')}
             </Link>
-            {COLLECTIONS.map((c) => (
-              <Link key={c.slug} href={`/galeria?coleccion=${c.slug}`} onClick={() => setMenuOpen(false)}
-                className="block px-10 py-3 text-xs tracking-widest uppercase border-b border-[#e8e8e8] text-[#aaa] hover:text-[#1a1a1a]">
-                {c.label}
-              </Link>
-            ))}
             <Link href="/artistas" onClick={() => setMenuOpen(false)}
               className="block px-6 py-4 text-xs tracking-widest uppercase border-b border-[#e8e8e8] text-[#888] hover:text-[#1a1a1a]">
               {t('artists')}
