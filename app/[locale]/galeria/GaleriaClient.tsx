@@ -7,11 +7,10 @@ import { useTranslations } from 'next-intl'
 interface Props {
   artworks: Artwork[]
   artists: Artist[]
-  collections: { slug: string; label: string }[]
   locale: string
 }
 
-export default function GaleriaClient({ artworks, artists, collections, locale }: Props) {
+export default function GaleriaClient({ artworks, artists, locale }: Props) {
   const t = useTranslations('gallery')
   const searchParams = useSearchParams()
   const [filterArtist, setFilterArtist] = useState<string>('all')

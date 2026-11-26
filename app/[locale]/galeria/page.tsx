@@ -1,4 +1,4 @@
-import { getAllArtworks, getAllArtists, COLLECTIONS } from '@/lib/catalog'
+import { getAllArtworks, getAllArtists } from '@/lib/catalog'
 import GaleriaClient from './GaleriaClient'
 import { getTranslations } from 'next-intl/server'
 
@@ -16,7 +16,6 @@ export default async function GaleriaPage({ params }: { params: Promise<{ locale
     <GaleriaClient
       artworks={artworks}
       artists={artists}
-      collections={COLLECTIONS}
       locale={locale}
     />
   )
