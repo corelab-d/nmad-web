@@ -6,15 +6,14 @@ import { Link } from '@/i18n/navigation'
 const BASE = 'https://pub-c363c24f86204416a51ce011c270c443.r2.dev/squarespace'
 
 const SLIDES = [
-  { img: `${BASE}/hero-alex-lazard-barca-ii.jpg`,                   slug: 'barca-ii-alex-lazard',                      title: 'Barca II',                    artist: 'Alex Lazard' },
-  { img: `${BASE}/hero-alex-lazard-todo-lo-que-sube.jpg`,           slug: 'todo-lo-que-sube-alex-lazard',              title: 'Todo lo que sube',            artist: 'Alex Lazard' },
-  { img: `${BASE}/hero-felipe-olivares-insomne.webp`,               slug: 'insomne-felipe-olivares-de-los-rios',       title: 'Insomne',                     artist: 'Felipe Olivares de los Ríos' },
-  { img: `${BASE}/hero-fernando-esteban-paisaje-hacia-adentro.webp`,slug: 'paisaje-hacia-adentro-fernando-esteban',    title: 'Paisaje hacia adentro',       artist: 'Fernando Esteban' },
-  { img: `${BASE}/hero-ramon-penaloza-joshijo.webp`,                slug: 'joshijo-ramon-penaloza',                    title: 'Joshijo',                     artist: 'Ramón Peñaloza' },
-  { img: `${BASE}/hero-toro-amillategui-mano.webp`,                 slug: 'mano-toro-amillategui',                     title: 'Mano',                        artist: 'Toro Amillategui' },
-  { img: `${BASE}/hero-toro-amillategui-tigre.webp`,                slug: 'tigre-toro-amillategui',                    title: 'Tigre',                       artist: 'Toro Amillategui' },
-  { img: `${BASE}/hero-wow-la-venus-del-nilo.webp`,                 slug: 'la-venus-del-nilo-wow',                     title: 'La venus del Nilo',           artist: 'WOW' },
-  { img: `${BASE}/hero-wow-viii.webp`,                              slug: 'viii-wow',                                  title: 'VIII',                        artist: 'WOW' },
+  { img: `${BASE}/hero-barca-ii-alex-lazard.jpg`,           slug: 'barca-ii-alex-lazard',                title: 'Barca II',          artist: 'Alex Lazard' },
+  { img: `${BASE}/hero-insomne-felipe-olivares.jpeg`,       slug: 'insomne-felipe-olivares-de-los-rios', title: 'Insomne',           artist: 'Felipe Olivares de los Ríos' },
+  { img: `${BASE}/hero-joshijo-ramon-penaloza.jpeg`,        slug: 'joshijo-ramon-penaloza',              title: 'Joshijo',           artist: 'Ramón Peñaloza' },
+  { img: `${BASE}/hero-la-venus-del-nilo-wow.jpeg`,         slug: 'la-venus-del-nilo-wow',               title: 'La venus del Nilo', artist: 'WOW' },
+  { img: `${BASE}/hero-mano-iv-toro-amillategui.jpeg`,      slug: 'mano-toro-amillategui',               title: 'Mano IV',           artist: 'Toro Amillategui' },
+  { img: `${BASE}/hero-tigre-toro-amillategui.jpeg`,        slug: 'tigre-toro-amillategui',              title: 'Tigre',             artist: 'Toro Amillategui' },
+  { img: `${BASE}/hero-todo-lo-que-sube-alex-lazard.jpeg`,  slug: 'todo-lo-que-sube-alex-lazard',        title: 'Todo lo que sube',  artist: 'Alex Lazard' },
+  { img: `${BASE}/hero-viii-wow.jpeg`,                      slug: 'viii-wow',                            title: 'VIII',              artist: 'WOW' },
 ]
 
 export default function HeroSlider({ locale }: { locale: string }) {
